@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KI im Deutsch-Unterricht: Ideen für telli</title>
-<meta name="description" content="42 Praxisbeispiele für den Einsatz von KI im Deutsch-Unterricht mit telli – Primarstufe, Sekundarstufe I und II.">
+<title>KI im Deutsch-Unterricht: Ideen für AIS.chat</title>
+<meta name="description" content="42 Praxisbeispiele für den Einsatz von KI im Deutsch-Unterricht mit AIS.chat – Primarstufe, Sekundarstufe I und II.">
 <style>
 /* ═══════════════════════════════════════════
    CSS Custom Properties
@@ -120,6 +120,7 @@ a:hover { color: var(--color-accent); }
   border: 2px solid transparent;
   transition: background var(--transition), border-color var(--transition), color var(--transition);
 }
+
 .btn-slk:hover { background: var(--color-accent-dark); color: #fff; }
 
 .btn-group {
@@ -134,6 +135,7 @@ a:hover { color: var(--color-accent); }
   color: var(--color-accent);
   border: 2px solid var(--color-accent);
 }
+
 .btn-slk-outline:hover {
   background: var(--color-accent);
   color: #fff;
@@ -159,6 +161,7 @@ a:hover { color: var(--color-accent); }
   grid-template-columns: 1fr;
   gap: 0.85rem;
 }
+
 @media (min-width: 640px) { .ebenen-grid { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 1024px) { .ebenen-grid { grid-template-columns: 1fr 1fr 1fr; } }
 
@@ -169,6 +172,7 @@ a:hover { color: var(--color-accent); }
   background: var(--color-bg);
   transition: box-shadow var(--transition);
 }
+
 .ebene-card:hover {
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
@@ -212,6 +216,7 @@ a:hover { color: var(--color-accent); }
   gap: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 .filter-row:last-child { margin-bottom: 0; }
 
 .filter-label {
@@ -237,6 +242,7 @@ a:hover { color: var(--color-accent); }
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
+
 .chip:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
@@ -261,6 +267,7 @@ a:hover { color: var(--color-accent); }
 .chip[data-type="dialogpartner"].active { background: var(--badge-dialogpartner); color: #fff; }
 .chip[data-type="bildgenerierung"] { border-color: var(--badge-bildgenerierung); color: var(--badge-bildgenerierung); }
 .chip[data-type="bildgenerierung"].active { background: var(--badge-bildgenerierung); color: #fff; }
+
 .chip[data-theme="inklusion"] { border-color: var(--badge-inklusion); color: var(--badge-inklusion); }
 .chip[data-theme="inklusion"].active { background: var(--badge-inklusion); color: #fff; }
 
@@ -284,6 +291,7 @@ a:hover { color: var(--color-accent); }
   border: none;
   font-family: inherit;
 }
+
 .reset-link:hover { color: var(--color-accent-dark); }
 
 .filter-hint {
@@ -308,6 +316,7 @@ a:hover { color: var(--color-accent); }
   overflow: hidden;
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 .card.hidden {
   display: none;
 }
@@ -321,6 +330,7 @@ a:hover { color: var(--color-accent); }
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
+
 .card-header:hover { background: var(--color-bg-subtle); }
 .card-header:focus-visible { outline: 2px solid var(--color-accent); outline-offset: -2px; }
 
@@ -369,11 +379,13 @@ a:hover { color: var(--color-accent); }
 .badge-P { background: var(--badge-primarstufe-bg); color: var(--badge-primarstufe); }
 .badge-SI { background: var(--badge-sek1-bg); color: var(--badge-sek1); }
 .badge-SII { background: var(--badge-sek2-bg); color: var(--badge-sek2); }
+
 .badge-prompt { background: var(--badge-prompt-bg); color: var(--badge-prompt); }
 .badge-assistent { background: var(--badge-assistent-bg); color: var(--badge-assistent); }
 .badge-lernszenario { background: var(--badge-lernszenario-bg); color: var(--badge-lernszenario); }
 .badge-dialogpartner { background: var(--badge-dialogpartner-bg); color: var(--badge-dialogpartner); }
 .badge-bildgenerierung { background: var(--badge-bildgenerierung-bg); color: var(--badge-bildgenerierung); }
+
 .badge-inklusion { background: var(--badge-inklusion-bg); color: var(--badge-inklusion); }
 
 .card-short {
@@ -391,6 +403,7 @@ a:hover { color: var(--color-accent); }
   transition: transform var(--transition);
   color: var(--color-text-muted);
 }
+
 .card.open .card-chevron { transform: rotate(180deg); }
 
 .card-body {
@@ -399,6 +412,7 @@ a:hover { color: var(--color-accent); }
   font-size: 0.88rem;
   line-height: 1.65;
 }
+
 .card.open .card-body { display: block; }
 
 .card-body p { margin-bottom: 0.6rem; }
@@ -415,6 +429,7 @@ a:hover { color: var(--color-accent); }
   padding: 0.85rem 1rem;
   margin-bottom: 0.75rem;
 }
+
 .block-lk {
   background: #f3f3f3;
   border-left: 3px solid #bbb;
@@ -422,6 +437,7 @@ a:hover { color: var(--color-accent); }
   padding: 0.85rem 1rem;
   margin-bottom: 0.75rem;
 }
+
 .block-label {
   font-size: 0.72rem;
   font-weight: 700;
@@ -430,6 +446,7 @@ a:hover { color: var(--color-accent); }
   margin-bottom: 0.35rem;
   display: block;
 }
+
 .block-sus .block-label { color: var(--color-accent-dark); }
 .block-lk .block-label { color: #666; }
 
@@ -449,6 +466,7 @@ a:hover { color: var(--color-accent); }
   padding: 0.85rem 1rem;
   margin-bottom: 0.75rem;
 }
+
 .block-diff .block-label { color: var(--badge-inklusion); }
 
 /* ═══════════════════════════════════════════
@@ -476,10 +494,9 @@ a:hover { color: var(--color-accent); }
   font-size: 0.88rem;
   line-height: 1.55;
 }
+
 .source-list li:last-child { border-bottom: none; }
-
 .source-list .source-title { font-weight: 600; }
-
 
 /* ═══════════════════════════════════════════
    Footer / License
@@ -499,6 +516,7 @@ a:hover { color: var(--color-accent); }
   display: none;
   padding: 2.5rem 0 3rem;
 }
+
 .page-datenschutz.visible { display: block; }
 
 .page-datenschutz h1 {
@@ -507,6 +525,7 @@ a:hover { color: var(--color-accent); }
   color: var(--color-accent-dark);
   margin-bottom: 1.5rem;
 }
+
 .page-datenschutz h2 {
   font-size: 1.05rem;
   font-weight: 700;
@@ -514,12 +533,14 @@ a:hover { color: var(--color-accent); }
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
+
 .page-datenschutz p {
   font-size: 0.9rem;
   line-height: 1.7;
   margin-bottom: 0.75rem;
   max-width: 680px;
 }
+
 .back-link {
   display: inline-block;
   margin-bottom: 1.25rem;
@@ -527,6 +548,7 @@ a:hover { color: var(--color-accent); }
   font-weight: 600;
   color: var(--color-accent);
 }
+
 .back-link:hover { color: var(--color-accent-dark); }
 
 .main-content.hidden-by-route { display: none; }
@@ -538,6 +560,7 @@ a:hover { color: var(--color-accent); }
   from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
 .fade-in {
   animation: fadeInUp 0.5s ease both;
 }
@@ -546,17 +569,18 @@ a:hover { color: var(--color-accent); }
 <body>
 
 <div class="main-content" id="mainContent">
+
 <!-- ════════ HEADER ════════ -->
 <header class="site-header">
   <div class="container">
-    <h1>KI im Deutsch-Unterricht: Ideen für telli</h1>
+    <h1>KI im Deutsch-Unterricht: Ideen für AIS.chat</h1>
     <p class="subtitle">42 Praxisbeispiele für Primarstufe, Sekundarstufe I und II</p>
     <p class="intro">
-      telli ist der DSGVO-konforme KI-Chatbot für hessische Schulen. Diese Sammlung zeigt konkrete Einsatzideen für das Fach Deutsch, gegliedert nach telli-Konfigurationsebenen und Schulstufen. Die Beispiele sind als Inspiration gedacht und direkt anpassbar. Vertiefung und Praxisübungen finden Sie im telli-Selbstlernkurs und in den Fortbildungsangeboten.
+      AIS.chat ist der DSGVO-konforme KI-Chatbot für hessische Schulen. Diese Sammlung zeigt konkrete Einsatzideen für das Fach Deutsch, gegliedert nach AIS.chat-Konfigurationsebenen und Schulstufen. Die Beispiele sind als Inspiration gedacht und direkt anpassbar. Vertiefung und Praxisübungen finden Sie im AIS.chat-Selbstlernkurs und in den Fortbildungsangeboten.
     </p>
     <div class="btn-group">
-      <a href="https://mo1300.bildung.hessen.de/enrol/index.php?id=1239" target="_blank" rel="noopener" class="btn-slk">Zum telli-Selbstlernkurs →</a>
-      <a href="https://schulportal.hessen.de/fortbildungen/angebote/?tag=telli" target="_blank" rel="noopener" class="btn-slk btn-slk-outline">Zu den telli-Fortbildungen →</a>
+      <a href="https://mo1300.bildung.hessen.de/enrol/index.php?id=1239" target="_blank" rel="noopener" class="btn-slk">Zum AIS.chat-Selbstlernkurs &rarr;</a>
+      <a href="https://schulportal.hessen.de/fortbildungen/angebote/?tag=ais-chat" target="_blank" rel="noopener" class="btn-slk btn-slk-outline">Zu den AIS.chat-Fortbildungen &rarr;</a>
     </div>
   </div>
 </header>
@@ -564,37 +588,37 @@ a:hover { color: var(--color-accent); }
 <!-- ════════ EBENEN ════════ -->
 <section class="section-ebenen">
   <div class="container">
-    <h2>Die telli-Ebenen im Überblick</h2>
+    <h2>Die AIS.chat-Ebenen im &Uuml;berblick</h2>
     <div class="ebenen-grid">
       <div class="ebene-card fade-in">
-        <span class="emoji">💬</span>
-        <h3>Prompts für Lehrkräfte</h3>
-        <p>Direkte Eingaben an telli zur Unterrichtsvorbereitung. Die Lehrkraft tippt, telli liefert Material, Aufgaben oder Ideen.</p>
+        <span class="emoji">&#128172;</span>
+        <h3>Prompts f&uuml;r Lehrkr&auml;fte</h3>
+        <p>Direkte Eingaben an AIS.chat zur Unterrichtsvorbereitung. Die Lehrkraft tippt, AIS.chat liefert Material, Aufgaben oder Ideen.</p>
       </div>
       <div class="ebene-card fade-in" style="animation-delay:0.06s">
-        <span class="emoji">🤖</span>
+        <span class="emoji">&#129302;</span>
         <h3>Assistenten</h3>
-        <p>Von Lehrkräften konfigurierte KI-Helfer mit hinterlegtem Fachwissen (Lehrpläne, eigenes Material). Wie ein Fach-Kollege auf Abruf. Nur Lehrkräfte können Assistenten in telli erstellen.</p>
+        <p>Von Lehrkr&auml;ften konfigurierte KI-Helfer mit hinterlegtem Fachwissen (Lehrpl&auml;ne, eigenes Material). Wie ein Fach-Kollege auf Abruf. Nur Lehrkr&auml;fte k&ouml;nnen Assistenten in AIS.chat erstellen.</p>
       </div>
       <div class="ebene-card fade-in" style="animation-delay:0.12s">
-        <span class="emoji">📋</span>
+        <span class="emoji">&#128203;</span>
         <h3>Lernszenarien</h3>
-        <p>Aufgabenbasierte Settings für Schülerinnen und Schüler. Die SuS sehen eine konkrete Aufgabe, die Lehrkraft hat im Hintergrund Regeln und Hilfen definiert. Die KI begleitet, gibt aber keine Lösungen vor.</p>
+        <p>Aufgabenbasierte Settings f&uuml;r Sch&uuml;lerinnen und Sch&uuml;ler. Die SuS sehen eine konkrete Aufgabe, die Lehrkraft hat im Hintergrund Regeln und Hilfen definiert. Die KI begleitet, gibt aber keine L&ouml;sungen vor.</p>
       </div>
       <div class="ebene-card fade-in" style="animation-delay:0.18s">
-        <span class="emoji">🎭</span>
+        <span class="emoji">&#127917;</span>
         <h3>Dialogpartner</h3>
-        <p>Virtuelle Personen mit eigenem Charakter. SuS chatten mit einer fiktiven Figur (z.B. eine literarische Figur, ein Streitschlichter). Die Figur hat eine Vorstellung und verhält sich konsistent.</p>
+        <p>Virtuelle Personen mit eigenem Charakter. SuS chatten mit einer fiktiven Figur (z.B. eine literarische Figur, ein Streitschlichter). Die Figur hat eine Vorstellung und verh&auml;lt sich konsistent.</p>
       </div>
       <div class="ebene-card fade-in" style="animation-delay:0.24s">
-        <span class="emoji">🖼️</span>
+        <span class="emoji">&#128444;&#65039;</span>
         <h3>Bildgenerierung</h3>
-        <p>telli erzeugt Bilder als Schreibanlass, Visualisierung oder Gegenstand für Medienkritik.</p>
+        <p>AIS.chat erzeugt Bilder als Schreibanlass, Visualisierung oder Gegenstand f&uuml;r Medienkritik.</p>
       </div>
       <div class="ebene-card fade-in" style="animation-delay:0.3s">
-        <span class="emoji">♿</span>
+        <span class="emoji">&#9855;</span>
         <h3>Inklusion / Differenzierung / DaZ</h3>
-        <p>Querschnittskategorie. KI ermöglicht gleiche Inhalte auf verschiedenen sprachlichen und didaktischen Niveaus. 12 Beispiele in dieser Sammlung tragen das Etikett „Inklusion / DaZ" und enthalten konkrete Differenzierungshinweise.</p>
+        <p>Querschnittskategorie. KI erm&ouml;glicht gleiche Inhalte auf verschiedenen sprachlichen und didaktischen Niveaus. 12 Beispiele in dieser Sammlung tragen das Etikett &bdquo;Inklusion / DaZ&ldquo; und enthalten konkrete Differenzierungshinweise.</p>
       </div>
     </div>
   </div>
@@ -603,7 +627,7 @@ a:hover { color: var(--color-accent); }
 <!-- ════════ FILTER BAR ════════ -->
 <div class="filter-bar">
   <div class="container">
-    <div class="filter-hint">Filtern Sie nach Schulstufe, telli-Ebene oder Thema, um die Auswahl einzugrenzen.</div>
+    <div class="filter-hint">Filtern Sie nach Schulstufe, AIS.chat-Ebene oder Thema, um die Auswahl einzugrenzen.</div>
     <div class="filter-row">
       <span class="filter-label">Stufe</span>
       <span class="chip" data-level="P" role="button" tabindex="0">Primarstufe</span>
@@ -624,7 +648,7 @@ a:hover { color: var(--color-accent); }
     </div>
     <div class="filter-meta">
       <span><span class="count" id="visibleCount">42</span> von 42 Beispielen</span>
-      <button class="reset-link" id="resetBtn">Filter zurücksetzen</button>
+      <button class="reset-link" id="resetBtn">Filter zur&uuml;cksetzen</button>
     </div>
   </div>
 </div>
@@ -639,53 +663,53 @@ a:hover { color: var(--color-accent); }
 <!-- ════════ SOURCES ════════ -->
 <section class="section-sources">
   <div class="container">
-    <h2>Quellen und weiterführende Materialien</h2>
+    <h2>Quellen und weiterf&uuml;hrende Materialien</h2>
     <ul class="source-list">
-      <li><span class="source-title">telli-Selbstlernkurs</span> (HLA Moodle) — <a href="https://mo1300.bildung.hessen.de/enrol/index.php?id=1239" target="_blank" rel="noopener">mo1300.bildung.hessen.de</a></li>
-      <li><span class="source-title">KIMADU NRW</span> — Didaktische Agenten für Deutsch, OER-Material — <a href="https://www.lernen-digital.nrw/kimadu-materialien-fuer-den-deutschunterricht" target="_blank" rel="noopener">lernen-digital.nrw</a></li>
-      <li><span class="source-title">Goethe-Institut</span> — Prompting-Handreichung für DaF-Lehrende (2025) — <a href="https://www.goethe.de/resources/files/pdf354/2025_gi_prompting_handreichung_v1-7.pdf" target="_blank" rel="noopener">goethe.de (PDF)</a></li>
-      <li><span class="source-title">KI-Schulpreis 2025</span> — Neue Grundschule Potsdam — <a href="https://ki-schulpreis.land-der-ideen.de/schulen/neue-grundschule-potsdam" target="_blank" rel="noopener">ki-schulpreis.land-der-ideen.de</a></li>
-      <li><span class="source-title">KI in Grund- und Förderschule Hessen</span> — <a href="https://he.edumaps.de/68607/344063/8bp15ccjwd/x99nn7grwm" target="_blank" rel="noopener">he.edumaps.de</a></li>
-      <li><span class="source-title">KI-Campus</span> — Freie Kurse zu KI in der Bildung — <a href="https://ki-campus.org/" target="_blank" rel="noopener">ki-campus.org</a></li>
-      <li><span class="source-title">NRW — Prompting-Kompetenz in Schule und Unterricht</span> — <a href="https://www.schulministerium.nrw/prompting-kompetenz-schule-und-unterricht" target="_blank" rel="noopener">schulministerium.nrw</a></li>
+      <li><span class="source-title">AIS.chat-Selbstlernkurs</span> (HLA Moodle) &mdash; <a href="https://mo1300.bildung.hessen.de/enrol/index.php?id=1239" target="_blank" rel="noopener">mo1300.bildung.hessen.de</a></li>
+      <li><span class="source-title">KIMADU NRW</span> &mdash; Didaktische Agenten f&uuml;r Deutsch, OER-Material &mdash; <a href="https://www.lernen-digital.nrw/kimadu-materialien-fuer-den-deutschunterricht" target="_blank" rel="noopener">lernen-digital.nrw</a></li>
+      <li><span class="source-title">Goethe-Institut</span> &mdash; Prompting-Handreichung f&uuml;r DaF-Lehrende (2025) &mdash; <a href="https://www.goethe.de/resources/files/pdf354/2025_gi_prompting_handreichung_v1-7.pdf" target="_blank" rel="noopener">goethe.de (PDF)</a></li>
+      <li><span class="source-title">KI-Schulpreis 2025</span> &mdash; Neue Grundschule Potsdam &mdash; <a href="https://ki-schulpreis.land-der-ideen.de/schulen/neue-grundschule-potsdam" target="_blank" rel="noopener">ki-schulpreis.land-der-ideen.de</a></li>
+      <li><span class="source-title">KI in Grund- und F&ouml;rderschule Hessen</span> &mdash; <a href="https://he.edumaps.de/68607/344063/8bp15ccjwd/x99nn7grwm" target="_blank" rel="noopener">he.edumaps.de</a></li>
+      <li><span class="source-title">KI-Campus</span> &mdash; Freie Kurse zu KI in der Bildung &mdash; <a href="https://ki-campus.org/" target="_blank" rel="noopener">ki-campus.org</a></li>
+      <li><span class="source-title">NRW &mdash; Prompting-Kompetenz in Schule und Unterricht</span> &mdash; <a href="https://www.schulministerium.nrw/prompting-kompetenz-schule-und-unterricht" target="_blank" rel="noopener">schulministerium.nrw</a></li>
     </ul>
-
   </div>
 </section>
 
 <!-- ════════ FOOTER ════════ -->
 <footer class="site-footer">
   <div class="container">
-    CC BY-SA 4.0 · Hessische Lehrkräfteakademie · Martin Kurz · <a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutzerklärung</a>
+    CC BY-SA 4.0 &middot; Hessische Lehrkr&auml;fteakademie &middot; Martin Kurz &middot; <a href="#impressum">Impressum</a> &middot; <a href="#datenschutz">Datenschutzerkl&auml;rung</a>
   </div>
 </footer>
+
 </div><!-- /main-content -->
 
 <!-- ════════ IMPRESSUM (hash-routed) ════════ -->
 <section class="page-datenschutz" id="pageImpressum">
   <div class="container">
-    <a href="#" class="back-link">← Zurück zur Übersicht</a>
+    <a href="#" class="back-link">&larr; Zur&uuml;ck zur &Uuml;bersicht</a>
     <h1>Impressum</h1>
 
     <h2>Verantwortlich</h2>
     <p>
       Martin Kurz<br>
-      Hessische Lehrkräfteakademie, Dezernat II.3 Medien<br>
-      Lahnstraße 61, 35389 Gießen<br>
+      Hessische Lehrkr&auml;fteakademie, Dezernat II.3 Medien<br>
+      Lahnstra&szlig;e 61, 35389 Gie&szlig;en<br>
       E-Mail: <a href="mailto:martin.kurz@bildung.hessen.de">martin.kurz@bildung.hessen.de</a>
     </p>
     <p>
-      Diese Website wurde im Rahmen einer dienstlichen Tätigkeit an der Hessischen Lehrkräfteakademie erstellt.
+      Diese Website wurde im Rahmen einer dienstlichen T&auml;tigkeit an der Hessischen Lehrkr&auml;fteakademie erstellt.
     </p>
 
     <h2>Lizenz</h2>
     <p>
-      Die Inhalte dieser Website stehen unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a> (Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen).
+      Die Inhalte dieser Website stehen unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener">CC BY-SA 4.0</a> (Creative Commons Namensnennung &mdash; Weitergabe unter gleichen Bedingungen).
     </p>
 
     <h2>Quellcode</h2>
     <p>
-      Der Quellcode dieser Website ist frei verfügbar: <a href="https://github.com/mgkurz/telli-deutsch-ideen" target="_blank" rel="noopener">github.com/mgkurz/telli-deutsch-ideen</a>
+      Der Quellcode dieser Website ist frei verf&uuml;gbar: <a href="https://github.com/mgkurz/ais-chat-deutsch-ideen" target="_blank" rel="noopener">github.com/mgkurz/ais-chat-deutsch-ideen</a>
     </p>
   </div>
 </section>
@@ -693,26 +717,26 @@ a:hover { color: var(--color-accent); }
 <!-- ════════ DATENSCHUTZ (hash-routed) ════════ -->
 <section class="page-datenschutz" id="pageDatenschutz">
   <div class="container">
-    <a href="#" class="back-link">← Zurück zur Übersicht</a>
-    <h1>Datenschutzerklärung</h1>
+    <a href="#" class="back-link">&larr; Zur&uuml;ck zur &Uuml;bersicht</a>
+    <h1>Datenschutzerkl&auml;rung</h1>
 
     <h2>Verantwortlich</h2>
     <p>
       Martin Kurz<br>
-      Hessische Lehrkräfteakademie, Dezernat II.3 Medien<br>
-      Lahnstraße 61, 35389 Gießen<br>
+      Hessische Lehrkr&auml;fteakademie, Dezernat II.3 Medien<br>
+      Lahnstra&szlig;e 61, 35389 Gie&szlig;en<br>
       E-Mail: <a href="mailto:martin.kurz@bildung.hessen.de">martin.kurz@bildung.hessen.de</a>
     </p>
     <p>
-      Diese Website wurde im Rahmen einer dienstlichen Tätigkeit an der Hessischen Lehrkräfteakademie erstellt. Das Hosting erfolgt über ein privates GitHub-Konto.
+      Diese Website wurde im Rahmen einer dienstlichen T&auml;tigkeit an der Hessischen Lehrkr&auml;fteakademie erstellt. Das Hosting erfolgt &uuml;ber ein privates GitHub-Konto.
     </p>
 
     <h2>Hosting</h2>
     <p>
-      Diese Website wird über GitHub Pages betrieben (GitHub Inc., 88 Colin P. Kelly Jr St, San Francisco, CA 94107, USA). Beim Aufruf der Seite werden durch GitHub automatisch technische Daten verarbeitet, insbesondere die IP-Adresse, Browser- und Betriebssysteminformationen, Referrer-URL sowie Zeitpunkt des Zugriffs. Auf diese Daten haben wir keinen direkten Zugriff. GitHub speichert diese Daten in Server-Logfiles.
+      Diese Website wird &uuml;ber GitHub Pages betrieben (GitHub Inc., 88 Colin P. Kelly Jr St, San Francisco, CA 94107, USA). Beim Aufruf der Seite werden durch GitHub automatisch technische Daten verarbeitet, insbesondere die IP-Adresse, Browser- und Betriebssysteminformationen, Referrer-URL sowie Zeitpunkt des Zugriffs. Auf diese Daten haben wir keinen direkten Zugriff. GitHub speichert diese Daten in Server-Logfiles.
     </p>
     <p>
-      Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung der Website). GitHub ist unter dem EU-U.S. Data Privacy Framework zertifiziert und nutzt zusätzlich Standardvertragsklauseln (SCCs) als Grundlage für den Datentransfer.
+      Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung der Website). GitHub ist unter dem EU-U.S. Data Privacy Framework zertifiziert und nutzt zus&auml;tzlich Standardvertragsklauseln (SCCs) als Grundlage f&uuml;r den Datentransfer.
     </p>
     <p>
       Weitere Informationen: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub Privacy Statement</a>
@@ -725,7 +749,7 @@ a:hover { color: var(--color-accent); }
 
     <h2>Ihre Rechte</h2>
     <p>
-      Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch sowie Beschwerde beim Hessischen Beauftragten für Datenschutz und Informationsfreiheit (Gustav-Stresemann-Ring 1, 65189 Wiesbaden).
+      Sie haben das Recht auf Auskunft, Berichtigung, L&ouml;schung, Einschr&auml;nkung der Verarbeitung, Widerspruch sowie Beschwerde beim Hessischen Beauftragten f&uuml;r Datenschutz und Informationsfreiheit (Gustav-Stresemann-Ring 1, 65189 Wiesbaden).
     </p>
   </div>
 </section>
@@ -735,48 +759,48 @@ a:hover { color: var(--color-accent); }
    DATA — 42 Einträge
    ═══════════════════════════════════════════ */
 const DATA=[
-{id:1,inklusion:true,title:"Differenzierte Lesetexte generieren",category:"A",level:["P"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Sachtext in drei Niveaustufen für eine 2. Klasse generieren lassen.",content:'<div class="block-prompt">„Schreibe einen kurzen Sachtext über Igel im Winter für eine 2. Klasse. Maximal 60 Wörter, nur einfache Hauptsätze, Silbentrennung durch Bindestriche markieren. Erstelle denselben Text in einer Version für leseschwache Kinder (40 Wörter, Druckschrift-Stil) und einer Version für lesestarke Kinder (80 Wörter, mit einem Nebensatz pro Absatz)."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für DaZ-Lernende ergänzen Sie im Prompt: „Sprachniveau A2, mit Wortglossar am Ende. Verwende nur Wörter aus dem Grundwortschatz." Für den Förderschwerpunkt Lernen: „Maximal 30 Wörter, ein Satz pro Zeile, Schlüsselwörter fett markieren."</div>'},
-{id:2,title:"Elfchen-Gerüste vorbereiten",category:"A",level:["P"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Lyrik-Gerüste mit Lücken zum Thema Herbst, Klasse 3.",content:'<div class="block-prompt">„Erstelle fünf Elfchen-Gerüste zum Thema Herbst für eine 3. Klasse. Gib jeweils die Struktur 1-2-3-4-1 vor, aber lass die letzte Zeile als Lücke. Ergänze pro Elfchen drei Wortvorschläge für die fehlende Zeile."</div>'},
-{id:3,title:"Grammatik-Übungen mit Fehleranalyse",category:"A",level:["SI"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Fehlerhafte Sätze zur Kommasetzung generieren, Klasse 7.",content:'<div class="block-prompt">„Du bist Deutschlehrerin. Erstelle fünf Sätze mit typischen Kommafehlern für eine 7. Klasse (Relativsätze, Aufzählungen, Infinitivgruppen). Kennzeichne die Fehler nicht. Erstelle separat einen Lösungsbogen mit Erklärung der jeweiligen Kommaregel."</div>'},
-{id:4,title:"Materialgestütztes Schreiben vorbereiten",category:"A",level:["SI"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Drei kontroverse Kurztexte zum Thema Handyverbot, Klasse 8.",content:'<div class="block-prompt">„Erstelle drei kurze, kontroverse Textausschnitte (je 40-60 Wörter) zum Thema ‚Sollten Handys in der Schule erlaubt sein?\' Die Texte sollen verschiedene Positionen vertreten: ein Elternteil, eine Schülerin, ein Medienpädagoge. Verwende Alltagssprache, Klasse 8."</div>'},
-{id:5,title:"Erwartungshorizont für Aufsätze",category:"A",level:["SI"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Kriterienbasiertes Bewertungsraster für Erörterung, Klasse 9.",content:'<div class="block-prompt">„Erstelle ein kriterienbasiertes Bewertungsraster für eine Erörterung in Klasse 9. Kriterien: Argumentationsstruktur, Sprachrichtigkeit, Textverknüpfung, Einbeziehung von Gegenargumenten. Vier Niveaustufen (ungenügend bis sehr gut) mit Kurzbeschreibung je Stufe."</div>'},
-{id:6,title:"Klausuraufgaben modellieren",category:"A",level:["SII"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Klausuraufgabe zur Erzählperspektive im Abiturformat, Q-Phase.",content:'<div class="block-prompt">„Du bist erfahrene Deutschlehrerin an einem Gymnasium in Hessen. Formuliere eine Klausuraufgabe zur Analyse eines Romanauszugs (Grundkurs, Q-Phase). Thema: Erzählperspektive und ihre Wirkung. Liefere: Aufgabenstellung mit Operatoren (analysieren, erörtern), Hinweise zur erwarteten Struktur, Zeitrahmen 135 Minuten. Kein konkreter Textauszug nötig, nur die Aufgabenformulierung."</div>'},
-{id:7,title:"Epochenvergleich-Material",category:"A",level:["SII"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Vergleichstabelle Sturm und Drang vs. Weimarer Klassik.",content:'<div class="block-prompt">„Erstelle eine Vergleichstabelle: Sturm und Drang vs. Weimarer Klassik. Spalten: Menschenbild, Naturverständnis, Sprache/Stil, zentrale Motive, ein Beispielwerk. Maximal 5 Zeilen, knapp formuliert, für einen Oberstufenkurs als Einstiegsimpuls."</div>'},
-{id:8,title:"Leseförderungs-Assistent",category:"B",level:["P"],telliType:"assistent",telliTypeLabel:"Assistent",shortDesc:"Hilft Lehrkräften, differenziertes Leseförder-Material zu erstellen.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Hessischer Lehrplan Deutsch Primarstufe, Lesekompetenzstufen nach IGLU, Prinzipien der Laut-Buchstaben-Zuordnung.</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du bist eine erfahrene Grundschullehrerin für Deutsch. Du hilfst Kolleginnen, Leseförder-Material zu erstellen. Du fragst immer nach Klassenstufe, Leseniveau und Textsorte, bevor du Material lieferst. Du schlägst Übungen vor, die lautes Lesen, Lesestrategien und Lesemotivation verbinden."</div>'},
-{id:9,title:"Schreibaufgaben-Entwickler",category:"B",level:["SI"],telliType:"assistent",telliTypeLabel:"Assistent",shortDesc:"Entwickelt Schreibaufgaben mit Erwartungshorizont und gestuften Hilfen.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Hessischer Lehrplan Deutsch Sek I, Kompetenzbereich Schreiben, Textsortenmerkmale (Bericht, Beschreibung, Erörterung, Erzählung).</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du unterstützt Deutschlehrkräfte bei der Entwicklung von Schreibaufgaben. Du fragst nach Klassenstufe, Textsorte, thematischem Kontext und Differenzierungsbedarf. Du lieferst die Aufgabe, einen Erwartungshorizont und gestufte Hilfen (Scaffolds)."</div>'},
-{id:10,title:"Differenzierungs-Assistent",category:"B",level:["SI"],telliType:"assistent",telliTypeLabel:"Assistent",shortDesc:"Wandelt einen Sachtext in drei Schwierigkeitsstufen um.",content:'<div class="block-lk"><span class="block-label">Instruktion</span>„Du bekommst einen Sachtext und wandelst ihn in drei Schwierigkeitsstufen um: Stufe 1 (einfache Sprache, kurze Sätze, Wortglossar), Stufe 2 (Originaltext gekürzt), Stufe 3 (Originaltext plus vertiefende Zusatzfragen). Du behältst die Kernaussagen bei und markierst, was sich zwischen den Stufen ändert."</div>'},
-{id:11,title:"Abitur-Aufgaben-Sparringspartner",category:"B",level:["SII"],telliType:"assistent",telliTypeLabel:"Assistent",shortDesc:"Hilft beim Formulieren von Klausuraufgaben im Abiturformat.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>KMK-Bildungsstandards Deutsch Sek II, Operatorenkatalog, Aufgabenformate (Analyse, Erörterung, materialgestütztes Schreiben).</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du hilfst Oberstufen-Lehrkräften, Klausuraufgaben und Übungsaufgaben im Abiturformat zu formulieren. Du achtest auf korrekte Operatoren, angemessenes Anforderungsniveau und lieferst zu jeder Aufgabe einen skizzierten Erwartungshorizont. Du warnst, wenn eine Aufgabe zu eng oder zu offen formuliert ist."</div>'},
-{id:12,title:"Epochen-Experte",category:"B",level:["SII"],telliType:"assistent",telliTypeLabel:"Assistent",shortDesc:"Beantwortet Fragen zu Literaturepochen, ordnet Texte ein.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Überblick Literaturepochen (Aufklärung bis Gegenwartsliteratur), wichtige Werke und Autoren, epochentypische Merkmale.</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du bist Experte für deutsche Literaturgeschichte. Du beantwortest Fragen zu Epochen, ordnest Texte ein und erklärst Zusammenhänge. Du lieferst immer konkrete Textbeispiele. Du vermeidest Vereinfachungen und weist auf Grenzfälle hin (z.B. Goethe zwischen Sturm und Drang und Klassik)."</div>'},
-{id:13,inklusion:true,title:"Geschichten-Weiterschreiber",category:"C",level:["P"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Kinder schreiben eine Geschichte weiter, telli stellt Fragen statt vorzuschreiben.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Hier ist der Anfang einer Geschichte: ‚Der kleine Fuchs stand am Waldrand und sah etwas Glitzerndes im Gebüsch...\' Schreibe die Geschichte weiter! Ich helfe dir mit Fragen, wenn du nicht weiterweißt."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Stelle dem Kind maximal eine Frage pro Antwort. Frage nach Sinneseindrücken (Was hört/riecht/sieht der Fuchs?), nach Gefühlen, nach dem nächsten Schritt. Schreibe nie die Geschichte für das Kind. Lobe konkret, was gut gelungen ist."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für den Förderschwerpunkt Sprache ergänzen Sie in der Instruktion: „Akzeptiere auch Einwort-Antworten und Stichwörter. Baue sie lobend in einen vollständigen Satz ein und wiederhole ihn."</div>'},
-{id:14,title:"Wörter-Detektiv",category:"C",level:["P"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Zusammengesetzte Wörter zerlegen und selbst erfinden.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du bist ein Wörter-Detektiv! Ich gebe dir ein zusammengesetztes Wort, und du findest heraus, aus welchen Teilen es besteht. Dann erfindest du selbst neue zusammengesetzte Wörter."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Beginne mit einfachen Beispielen (Haustür, Schneeball). Steigere die Schwierigkeit. Lass das Kind eigene Wörter erfinden und akzeptiere kreative Lösungen. Erkläre Wortbildungsprinzipien in kindgerechter Sprache."</div>'},
-{id:15,inklusion:true,title:"Bildgeschichten-Erzähler",category:"C",level:["P"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Von der Bildbeschreibung zur ganzen Geschichte, Schritt für Schritt.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Schau dir das Bild an (Lehrkraft gibt Bild ein). Beschreibe zuerst, was du siehst. Dann überlege: Was ist vorher passiert? Was passiert als Nächstes? Erzähle mir die ganze Geschichte!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Stelle Scaffolding-Fragen in der Reihenfolge: Benennen → Beschreiben → Vermuten → Erzählen. Fordere immer mindestens ein Adjektiv pro Satz ein. Wiederhole gelungene Formulierungen des Kindes lobend."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für DaZ-Lernende ergänzen Sie in der Instruktion: „Biete zu jedem Schritt Satzanfänge an: Auf dem Bild sehe ich..., Im Vordergrund ist..., Ich glaube, danach passiert..." Für den Förderschwerpunkt Lernen: „Beschränke dich auf Schritt 1 und 2 (Benennen und Beschreiben). Stelle geschlossene Fragen."</div>'},
-{id:16,inklusion:true,title:"Argumentations-Trainer",category:"C",level:["SI"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"These-Begründung-Beispiel üben, mit Feedback zur Argumentstärke.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Wir üben das Argumentieren. Du bekommst eine These und musst sie mit einem Argument und einem Beispiel stützen. Ich sage dir, ob dein Argument stark oder schwach ist und warum."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Gib dem Schüler eine alltagsnahe These (z.B. ‚Schuluniformen sollten Pflicht sein\'). Bewerte Argumente nach dem Dreischritt These-Begründung-Beispiel. Wenn ein Argument schwach ist, sage nicht die Lösung, sondern frage: ‚Was könnte jemand dagegen einwenden?\' Steigere von einfachen zu kontroversen Thesen."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für DaZ-Lernende ergänzen Sie in der Instruktion: „Biete Formulierungsbausteine an: Ich finde, dass..., Ein Beispiel dafür ist..., Das ist wichtig, weil..." Verwende alltagsnahe Themen mit konkretem Lebensweltbezug.</div>'},
-{id:17,title:"Rechtschreib-Werkstatt",category:"C",level:["SI"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Diktat-Übung mit anschließender Regelklärung statt reiner Korrektur.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Ich diktiere dir Sätze. Schreibe sie auf. Danach prüfen wir zusammen, welche Stellen knifflig waren, und lernen die Regel dahinter."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Diktiere Sätze mit jeweils einem Rechtschreibschwerpunkt (Dehnung, Schärfung, Groß-/Kleinschreibung, das/dass). Wenn der Schüler einen Fehler macht, nenne nicht sofort die richtige Schreibung, sondern die zugehörige Regel und lass den Schüler selbst korrigieren."</div>'},
-{id:18,title:"Bewerbungs-Coach",category:"C",level:["SI"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Bewerbungsanschreiben Schritt für Schritt erarbeiten, Klasse 8/9.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du schreibst eine Bewerbung für ein Praktikum. Ich helfe dir Schritt für Schritt: Erst die Anrede, dann der Einleitungssatz, dann deine Stärken, dann der Schluss."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Führe den Schüler durch die Textteile eines Bewerbungsanschreibens. Gib kein fertiges Anschreiben vor. Frage nach dem konkreten Praktikumsplatz, den Stärken des Schülers, der Motivation. Gib nach jedem Abschnitt konkretes sprachliches Feedback."</div>'},
-{id:19,inklusion:true,title:"Gedichtanalyse-Begleiter",category:"C",level:["SII"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Schrittweise durch die Phasen der Gedichtanalyse, ohne Lösungen vorwegzunehmen.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du analysierst ein Gedicht. Ich begleite dich Schritt für Schritt: Erst Leseeindruck, dann formale Analyse, dann inhaltliche Deutung, dann sprachliche Mittel. Am Ende formulierst du eine Gesamtdeutung."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Begleite den Schüler durch die Phasen der Gedichtanalyse. Nenne nie die Deutung. Frage stattdessen: ‚Welches Bild siehst du in Vers 3?\' ‚Was bewirkt der Zeilenumbruch hier?\' Wenn der Schüler ein sprachliches Mittel nicht erkennt, gib einen Hinweis auf die Kategorie (z.B. ‚Schau dir die Bildlichkeit an\'), nicht auf das konkrete Mittel."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für den Förderschwerpunkt Lernen ergänzen Sie in der Instruktion: „Arbeite nur mit einer einzelnen Strophe. Stelle maximal eine Frage pro Antwort. Beginne mit konkreten Fragen vor abstrakten."</div>'},
-{id:20,title:"Erörterungs-Werkstatt",category:"C",level:["SII"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Textgebundene Erörterung sequenziell erarbeiten mit Feedback pro Schritt.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du übst, eine textgebundene Erörterung zu schreiben. Gib mir den Sachtext (oder das Thema), und ich führe dich durch die Schritte: Textanalyse → Thesenextraktion → Argumentsammlung → Gliederung → Formulierung."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Arbeite streng sequenziell. Lass den Schüler in jedem Schritt selbst formulieren und gib erst Feedback, bevor der nächste Schritt beginnt. Achte auf korrekte Verwendung von Operatoren. Unterscheide explizit zwischen Zusammenfassung, Analyse und eigener Stellungnahme."</div>'},
-{id:21,title:"Epochen-Quiz",category:"C",level:["SII"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Zitate und Motive einer Epoche zuordnen und begründen.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Ich nenne dir ein Zitat, ein Motiv oder ein Merkmal. Du ordnest es einer Epoche zu und begründest. Danach bekommst du eine Rückmeldung."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Verwende epochentypische Motive und Stilmerkmale. Akzeptiere begründete Zuordnungen auch bei Grenzfällen. Erkläre nach jeder Runde den epochengeschichtlichen Kontext."</div>'},
-{id:22,title:"Frieda Fabulix, die Geschichtensammlerin",category:"D",level:["P"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Freundliche Figur, die Kinder zum Geschichtenerfinden anregt.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Hallo! Ich bin Frieda Fabulix. Ich sammle Geschichten aus der ganzen Welt. Leider habe ich mein Notizbuch verloren und brauche deine Hilfe, neue Geschichten zu erfinden!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Frieda, eine freundliche, neugierige Figur. Du sprichst in einfacher Sprache (Klasse 2-4). Du stellst Fragen, die zum Erzählen anregen: Wer? Wo? Was passiert? Du reagierst begeistert auf Details. Du schreibst nie die Geschichte für das Kind."</div>'},
-{id:23,title:"Professor Satzbaum",category:"D",level:["P"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Unwissender Professor, dem Kinder Grammatik erklären (Lernen durch Erklären).",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Guten Tag! Ich bin Professor Satzbaum. Ich erforsche, wie Sätze gebaut sind. Manchmal verstehe ich aber ganz einfache Dinge nicht und brauche deine Erklärung!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du stellst dich unwissend und bittest das Kind, dir Satzstrukturen zu erklären (Lernen durch Erklären). ‚Was ist eigentlich ein Verb? Kannst du mir das zeigen?\' Stelle gezielte Verständnisfragen. Wenn das Kind etwas falsch erklärt, sage: ‚Hm, aber was ist dann mit dem Wort laufen? Ist das auch so?\'"</div>'},
-{id:24,title:"Lina, die kritische Leserin",category:"D",level:["SI"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"14-Jährige, die Texte hinterfragt und Quellenkritik fördert.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Hi, ich bin Lina, 14 Jahre alt. Ich lese wahnsinnig gerne und hinterfrage alles. Zeig mir einen Text, und ich sage dir, was mir auffällt. Aber ich will auch wissen, was DU denkst!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Lina, eine aufgeweckte 14-Jährige. Du sprichst jugendgerecht, aber korrekt. Wenn ein Schüler dir einen Text zeigt, stellst du kritische Fragen: ‚Wer sagt das? Stimmt das wirklich? Welches Argument fehlt?\' Du förderst Quellenkritik und sprachliche Analyse. Du lobst gute Beobachtungen konkret."</div>'},
-{id:25,title:"Der Streitschlichter",category:"D",level:["SI"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Konfliktsimulation für Perspektivübernahme und sprachliche Höflichkeit.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin ein Streitschlichter an eurer Schule. Zwei Schüler haben Streit und brauchen eure Hilfe. Hört euch beide Seiten an und versucht, eine Lösung zu finden."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Simuliere eine Konfliktsituation zwischen zwei fiktiven Schülern. Präsentiere beide Perspektiven. Lass den realen Schüler Lösungsvorschläge formulieren. Fordere dabei sprachliche Höflichkeit und Perspektivübernahme ein. Wechsle zwischen verschiedenen Szenarien (Streit um Sitzplatz, Gruppenprojekt, Gerüchte)."</div>'},
-{id:26,title:"TRU, der Rhetorik-Trainer",category:"D",level:["SI"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Rhetorische Strategien in Alltagssituationen erkennen lernen.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin TRU. Ich helfe dir, rhetorische Tricks in Alltagsgesprächen zu erkennen. Politiker, Influencer, deine Freunde: Alle nutzen sie. Lass uns gemeinsam herausfinden, wer wie überzeugt."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Präsentiere kurze Gesprächsausschnitte (Alltagssituationen). Lass den Schüler rhetorische Strategien identifizieren (Appell an Gefühle, Autoritätsargument, Whataboutism). Erkläre die Strategien an Alltagsbeispielen. Steigere von offensichtlichen zu subtilen Beispielen."</div>'},
-{id:27,title:"Faust persönlich",category:"D",level:["SII"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Faust aus Goethes Faust I antwortet in der Ich-Perspektive.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin Heinrich Faust, Doktor der Philosophie, Medizin, Juristerei und leider auch Theologie. Ich habe alles studiert und weiß doch nicht, was die Welt im Innersten zusammenhält. Frag mich."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Faust aus Goethes Faust I. Du antwortest in der Ich-Perspektive, konsistent mit dem Dramentext. Du reflektierst über deine Motivation, dein Verhältnis zu Mephisto, zu Gretchen, zur Wissenschaft. Du sprichst gehoben, aber nicht unverständlich. Wenn der Schüler nach Stellen fragt, die im Drama nicht explizit behandelt werden, sagst du das offen."</div>'},
-{id:28,title:"Die Gegenrednerin",category:"D",level:["SII"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Nimmt systematisch die Gegenposition ein, benennt logische Schwächen.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin deine Gegenrednerin. Egal, welche Position du vertrittst, ich finde Gegenargumente. Nicht, weil ich gemein bin, sondern weil deine Argumentation dadurch besser wird."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du nimmst immer die Gegenposition zum Schüler ein. Du argumentierst sachlich, nie persönlich. Du benennst logische Schwächen (Zirkelschluss, Strohmann, falsche Kausalität). Du lobst, wenn ein Gegenargument dich ‚überzeugt\'. Themenbeispiele: Literarische Wertung, ethische Fragen, Sprachkritik."</div>'},
-{id:29,title:"Kafka im Café",category:"D",level:["SII"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Fiktiver Kafka reflektiert über seine Texte in der Ich-Perspektive.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich sitze in einem Prager Café und schreibe. Ich bin Franz. Man sagt, meine Geschichten seien seltsam. Vielleicht stimmt das. Möchtest du mit mir über Literatur sprechen?"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist eine fiktive Version von Franz Kafka. Du sprichst nachdenklich, leise, mit Ironie. Du beantwortest Fragen zu deinen Texten aus der Ich-Perspektive (Die Verwandlung, Der Prozess, Brief an den Vater). Du interpretierst nicht, sondern beschreibst, was du ‚beim Schreiben gedacht hast\'. Wenn der Schüler nach biografischen Details fragt, antwortest du zurückhaltend."</div>'},
-{id:30,title:"Unmögliche Bilder als Schreibanlass",category:"E",level:["P"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Fantastische Bilder generieren, Kinder beschreiben und erzählen dazu.",content:'<div class="block-prompt">„Generiere ein unmögliches Bild: Ein Elefant sitzt auf einer Schaukel auf dem Mond, im Hintergrund schwimmen Fische durch die Luft. Bunter, freundlicher Stil für Grundschulkinder."</div><p><strong>Unterrichtsidee:</strong> Kinder beschreiben, was sie sehen, und schreiben eine Geschichte dazu. Fokus: Fantasie, Adjektive, Satzanfänge variieren.</p>'},
-{id:31,title:"Bildergeschichten-Sequenzen",category:"E",level:["P"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Vier-Bilder-Sequenz mit offenem Ende, Klasse 3.",content:'<div class="block-prompt">„Erstelle vier Bilder als Sequenz für eine Bildergeschichte für die 3. Klasse: 1. Ein Kind findet einen seltsamen Schlüssel. 2. Das Kind probiert den Schlüssel an verschiedenen Türen. 3. Eine Tür öffnet sich zu einem überraschenden Ort. 4. [Das vierte Bild bleibt leer, die Kinder zeichnen/beschreiben selbst das Ende]. Einfacher, klarer Illustrationsstil."</div>'},
-{id:32,title:"Prompt-Battle zu Lektüren",category:"E",level:["SI"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Wettbewerb: Wer schreibt den besten Prompt für eine Schlüsselszene?",content:'<p><strong>Unterrichtsidee:</strong> Wer schreibt den präzisesten Prompt, um eine Schlüsselszene aus der aktuellen Lektüre als Bild zu generieren? Wettbewerb in Kleingruppen. Anschließend: Vergleich der Bilder mit der Textvorlage. Was stimmt? Was fehlt? Was hat die KI „falsch verstanden"?</p><div class="block-prompt">Beispiel: „Generiere eine Szene aus einem Jugendroman: Ein Junge steht nachts allein an einer Brücke in einer Kleinstadt, es regnet leicht, Straßenlaternen spiegeln sich im Wasser. Realistischer Stil, düstere Stimmung, Perspektive von hinten."</div>'},
-{id:33,title:"Szenenbilder für szenisches Spiel",category:"E",level:["SI"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Bühnenbild-Skizzen als Vorbereitung für szenisches Interpretieren.",content:'<div class="block-prompt">„Erstelle ein Bühnenbild-Konzept für eine Szene: Ein Gerichtssaal im Mittelalter, einfach gehalten, nur die wesentlichen Elemente (Richterpult, Anklagebank, Zuschauerreihen). Theaterstil, schwarz-weiß-Skizze."</div><p><strong>Einsatz:</strong> Vorbereitung auf szenisches Interpretieren bei dramatischen Texten.</p>'},
-{id:34,title:"Epochen visualisieren",category:"E",level:["SII"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Kontrastierende Bilder: Romantik vs. Naturalismus als Einstiegsimpuls.",content:'<div class="block-prompt">„Generiere zwei kontrastierende Bilder: Links ein typisches Landschaftsbild im Stil der Romantik (wilde Natur, Ruine, einsamer Wanderer, Mondlicht). Rechts dieselbe Landschaft im Stil des Naturalismus (industrielle Spuren, rauchende Schornsteine, Arbeiter). Kein bestimmter Künstler, allgemeiner Epochenstil."</div><p><strong>Einsatz:</strong> Einstiegsimpuls für Epochenvergleich, Gesprächsanlass über die Verbindung von Weltbild und ästhetischer Darstellung.</p>'},
-{id:35,title:"KI-Bilder als Medienkritik-Objekt",category:"E",level:["SII"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Stereotype in KI-generierten Bildern analysieren und diskutieren.",content:'<p><strong>Unterrichtsidee:</strong> SuS generieren Bilder zu einem aktuellen Thema und analysieren: Welche Stereotype reproduziert die KI? Welche Perspektiven fehlen? Was passiert, wenn ich den Prompt ändere?</p><p><strong>Beispiel-Prompt-Sequenz:</strong></p><ol><li>„Ein typischer deutscher Dichter" → Was zeigt die KI?</li><li>„Eine typische deutsche Dichterin" → Vergleich.</li><li>„Ein Dichter, der nicht dem Stereotyp entspricht" → Diskussion über Bias.</li></ol>'},
-{id:36,inklusion:true,title:"Textvereinfacher",category:"G",level:["P","SI","SII"],telliType:"assistent",telliTypeLabel:"Assistent",shortDesc:"Vereinfacht Texte auf verschiedene Sprachniveaus, mit Glossar.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Regeln für Einfache Sprache und Leichte Sprache, GER-Niveaustufen A1-C1, Wortschatzlisten nach Sprachniveau.</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du vereinfachst Texte für den Unterricht. Du fragst immer zuerst: Welches Zielniveau (Einfache Sprache, Leichte Sprache, Sprachniveau A1/A2/B1)? Welche Fachbegriffe müssen erhalten bleiben? Du lieferst den vereinfachten Text plus ein Glossar der Fachbegriffe mit kurzer Erklärung. Du markierst Stellen, an denen du den Inhalt gekürzt hast, damit die Lehrkraft entscheiden kann, ob die Kürzung akzeptabel ist."</div>'},
-{id:37,inklusion:true,title:"Satz-Baukasten",category:"G",level:["P","SI"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Sätze sortieren und Schritt für Schritt erweitern, Förderschwerpunkt Sprache/Lernen.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Wir bauen Sätze! Ich gebe dir Wörter, und du setzt sie in die richtige Reihenfolge. Dann erweitern wir den Satz Schritt für Schritt."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Beginne mit einfachen Subjekt-Verb-Sätzen (‚Der Hund rennt.\'). Lass den Schüler sortieren. Dann erweitere: Wohin rennt der Hund? Warum? Wie? Steigere von Hauptsätzen zu einfachen Nebensätzen (weil, dass, wenn). Bei Fehlern in der Wortstellung: Zeige den korrekten Satz und lass den Schüler die Veränderung benennen. Kein Grammatikjargon, sondern: ‚Das Verb steht immer an zweiter Stelle. Schau mal.\'"</div>'},
-{id:38,inklusion:true,title:"Lese-Helferin",category:"G",level:["SI"],telliType:"lernszenario",telliTypeLabel:"Lernszenario",shortDesc:"Gemeinsames Lesen mit gestuften Verständnisfragen, Förderschwerpunkt Lernen.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Wir lesen zusammen einen Text. Nach jedem Abschnitt stelle ich dir eine Frage. Wenn du nicht weiterweißt, helfe ich dir mit einem Tipp."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Arbeite mit kurzen Textabschnitten (3-5 Sätze). Stelle nach jedem Abschnitt eine Verständnisfrage auf Reproduktionsniveau (‚Wer macht was?\'). Erst bei Erfolg: Transferfrage (‚Warum wohl?\'). Gestufte Hilfen: 1. Frage umformulieren, 2. relevante Textstelle nennen, 3. Antwortalternativen anbieten. Verwende Alltagssprache. Erkläre unbekannte Wörter sofort, ohne dass der Schüler fragen muss."</div>'},
-{id:39,inklusion:true,title:"Milo, der neugierige Neue",category:"G",level:["P","SI"],telliType:"dialogpartner",telliTypeLabel:"Dialogpartner",shortDesc:"Gleichaltriger DaZ-Lernender, dem Kinder Dinge erklären (Lernen durch Erklären).",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Hallo! Ich bin Milo und bin gerade erst nach Deutschland gekommen. Ich kenne mich hier noch nicht gut aus. Kannst du mir helfen und mir Sachen erklären?"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Milo, ein freundlicher, neugieriger Gleichaltriger, der Deutsch lernt. Du stellst Fragen über den Schulalltag, Hobbys, das Wetter, Essen. Du machst selbst kleine Sprachfehler (realistisch für A2), die der Schüler korrigieren darf. Du lässt den Schüler Experte sein (Lernen durch Erklären). Wenn der Schüler selbst DaZ-Lernender ist: Passe dein Niveau an und feiere jede gelungene Erklärung."</div>'},
-{id:40,inklusion:true,title:"Bildgestützte Wortschatzarbeit",category:"G",level:["P","SI"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Szenenbilder mit benennbaren Gegenständen für Wortschatzübungen auf verschiedenen Niveaus.",content:'<div class="block-prompt">„Generiere ein Bild von einer typischen deutschen Küche mit 10 deutlich erkennbaren Gegenständen (Kühlschrank, Herd, Tisch, Stuhl, Tasse, Teller, Topf, Messer, Brot, Apfel). Klarer, einfacher Illustrationsstil, jeder Gegenstand gut sichtbar und benennbar."</div><p><strong>Einsatz:</strong> SuS benennen Gegenstände, ordnen Wörter zu, bilden Sätze (‚Der Topf steht auf dem Herd.\'). Erweiterbar: Dasselbe Bild für verschiedene Sprachniveaus (A1: benennen, A2: beschreiben, B1: eine Alltagssituation erzählen).</p>'},
-{id:41,inklusion:true,title:"Gefühle-Bilder für emotional-soziale Förderung",category:"G",level:["P"],telliType:"bildgenerierung",telliTypeLabel:"Bildgenerierung",shortDesc:"Gesichter mit verschiedenen Gefühlen als Gesprächs- und Wortschatzanlass.",content:'<div class="block-prompt">„Generiere vier Bilder von Kindergesichtern, die verschiedene Gefühle zeigen: Freude, Trauer, Wut, Angst. Warmer, freundlicher Illustrationsstil, keine realistischen Fotos. Die Gesichter sollen Diversität zeigen."</div><p><strong>Einsatz:</strong> Gesprächsanlass über Gefühle, Wortschatzarbeit (Adjektive für Gefühle), Vorbereitung auf Streitschlichtung oder Sozialtraining. Erweiterung: SuS beschreiben Situationen, in denen sie sich so gefühlt haben.</p>'},
-{id:42,inklusion:true,title:"Sprachniveau-Adapter",category:"G",level:["P","SI","SII"],telliType:"prompt",telliTypeLabel:"Prompt",shortDesc:"Ein Arbeitsblatt in drei Versionen (A1-A2, B1, Regelklasse), optisch einheitlich.",content:'<div class="block-prompt">„Hier ist ein Arbeitsblatt für Klasse 5 zum Thema Satzglieder. Erstelle drei Versionen: Version A (Sprachniveau A1-A2, für Seiteneinsteiger): nur Subjekt und Prädikat, mit Bildunterstützung und Auswahlaufgaben. Version B (Sprachniveau B1, für fortgeschrittene DaZ-Lernende): Subjekt, Prädikat, Objekt, Umstellprobe mit Lückentext. Version C (Regelklasse): vollständige Satzgliedbestimmung mit Fachbegriffen und Eigenproduktion. Alle drei Versionen sollen optisch ähnlich aussehen, damit kein Schüler stigmatisiert wird."</div>'}
+{id:1,inklusion:true,title:"Differenzierte Lesetexte generieren",category:"A",level:["P"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Sachtext in drei Niveaustufen für eine 2. Klasse generieren lassen.",content:'<div class="block-prompt">„Schreibe einen kurzen Sachtext über Igel im Winter für eine 2. Klasse. Maximal 60 Wörter, nur einfache Hauptsätze, Silbentrennung durch Bindestriche markieren. Erstelle denselben Text in einer Version für leseschwache Kinder (40 Wörter, Druckschrift-Stil) und einer Version für lesestarke Kinder (80 Wörter, mit einem Nebensatz pro Absatz)."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für DaZ-Lernende ergänzen Sie im Prompt: „Sprachniveau A2, mit Wortglossar am Ende. Verwende nur Wörter aus dem Grundwortschatz." Für den Förderschwerpunkt Lernen: „Maximal 30 Wörter, ein Satz pro Zeile, Schlüsselwörter fett markieren."</div>'},
+{id:2,title:"Elfchen-Gerüste vorbereiten",category:"A",level:["P"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Lyrik-Gerüste mit Lücken zum Thema Herbst, Klasse 3.",content:'<div class="block-prompt">„Erstelle fünf Elfchen-Gerüste zum Thema Herbst für eine 3. Klasse. Gib jeweils die Struktur 1-2-3-4-1 vor, aber lass die letzte Zeile als Lücke. Ergänze pro Elfchen drei Wortvorschläge für die fehlende Zeile."</div>'},
+{id:3,title:"Grammatik-Übungen mit Fehleranalyse",category:"A",level:["SI"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Fehlerhafte Sätze zur Kommasetzung generieren, Klasse 7.",content:'<div class="block-prompt">„Du bist Deutschlehrerin. Erstelle fünf Sätze mit typischen Kommafehlern für eine 7. Klasse (Relativsätze, Aufzählungen, Infinitivgruppen). Kennzeichne die Fehler nicht. Erstelle separat einen Lösungsbogen mit Erklärung der jeweiligen Kommaregel."</div>'},
+{id:4,title:"Materialgestütztes Schreiben vorbereiten",category:"A",level:["SI"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Drei kontroverse Kurztexte zum Thema Handyverbot, Klasse 8.",content:'<div class="block-prompt">„Erstelle drei kurze, kontroverse Textausschnitte (je 40-60 Wörter) zum Thema ‚Sollten Handys in der Schule erlaubt sein?\' Die Texte sollen verschiedene Positionen vertreten: ein Elternteil, eine Schülerin, ein Medienpädagoge. Verwende Alltagssprache, Klasse 8."</div>'},
+{id:5,title:"Erwartungshorizont für Aufsätze",category:"A",level:["SI"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Kriterienbasiertes Bewertungsraster für Erörterung, Klasse 9.",content:'<div class="block-prompt">„Erstelle ein kriterienbasiertes Bewertungsraster für eine Erörterung in Klasse 9. Kriterien: Argumentationsstruktur, Sprachrichtigkeit, Textverknüpfung, Einbeziehung von Gegenargumenten. Vier Niveaustufen (ungenügend bis sehr gut) mit Kurzbeschreibung je Stufe."</div>'},
+{id:6,title:"Klausuraufgaben modellieren",category:"A",level:["SII"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Klausuraufgabe zur Erzählperspektive im Abiturformat, Q-Phase.",content:'<div class="block-prompt">„Du bist erfahrene Deutschlehrerin an einem Gymnasium in Hessen. Formuliere eine Klausuraufgabe zur Analyse eines Romanauszugs (Grundkurs, Q-Phase). Thema: Erzählperspektive und ihre Wirkung. Liefere: Aufgabenstellung mit Operatoren (analysieren, erörtern), Hinweise zur erwarteten Struktur, Zeitrahmen 135 Minuten. Kein konkreter Textauszug nötig, nur die Aufgabenformulierung."</div>'},
+{id:7,title:"Epochenvergleich-Material",category:"A",level:["SII"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Vergleichstabelle Sturm und Drang vs. Weimarer Klassik.",content:'<div class="block-prompt">„Erstelle eine Vergleichstabelle: Sturm und Drang vs. Weimarer Klassik. Spalten: Menschenbild, Naturverständnis, Sprache/Stil, zentrale Motive, ein Beispielwerk. Maximal 5 Zeilen, knapp formuliert, für einen Oberstufenkurs als Einstiegsimpuls."</div>'},
+{id:8,title:"Leseförderungs-Assistent",category:"B",level:["P"],aisType:"assistent",aisTypeLabel:"Assistent",shortDesc:"Hilft Lehrkräften, differenziertes Leseförder-Material zu erstellen.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Hessischer Lehrplan Deutsch Primarstufe, Lesekompetenzstufen nach IGLU, Prinzipien der Laut-Buchstaben-Zuordnung.</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du bist eine erfahrene Grundschullehrerin für Deutsch. Du hilfst Kolleginnen, Leseförder-Material zu erstellen. Du fragst immer nach Klassenstufe, Leseniveau und Textsorte, bevor du Material lieferst. Du schlägst Übungen vor, die lautes Lesen, Lesestrategien und Lesemotivation verbinden."</div>'},
+{id:9,title:"Schreibaufgaben-Entwickler",category:"B",level:["SI"],aisType:"assistent",aisTypeLabel:"Assistent",shortDesc:"Entwickelt Schreibaufgaben mit Erwartungshorizont und gestuften Hilfen.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Hessischer Lehrplan Deutsch Sek I, Kompetenzbereich Schreiben, Textsortenmerkmale (Bericht, Beschreibung, Erörterung, Erzählung).</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du unterstützt Deutschlehrkräfte bei der Entwicklung von Schreibaufgaben. Du fragst nach Klassenstufe, Textsorte, thematischem Kontext und Differenzierungsbedarf. Du lieferst die Aufgabe, einen Erwartungshorizont und gestufte Hilfen (Scaffolds)."</div>'},
+{id:10,title:"Differenzierungs-Assistent",category:"B",level:["SI"],aisType:"assistent",aisTypeLabel:"Assistent",shortDesc:"Wandelt einen Sachtext in drei Schwierigkeitsstufen um.",content:'<div class="block-lk"><span class="block-label">Instruktion</span>„Du bekommst einen Sachtext und wandelst ihn in drei Schwierigkeitsstufen um: Stufe 1 (einfache Sprache, kurze Sätze, Wortglossar), Stufe 2 (Originaltext gekürzt), Stufe 3 (Originaltext plus vertiefende Zusatzfragen). Du behältst die Kernaussagen bei und markierst, was sich zwischen den Stufen ändert."</div>'},
+{id:11,title:"Abitur-Aufgaben-Sparringspartner",category:"B",level:["SII"],aisType:"assistent",aisTypeLabel:"Assistent",shortDesc:"Hilft beim Formulieren von Klausuraufgaben im Abiturformat.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>KMK-Bildungsstandards Deutsch Sek II, Operatorenkatalog, Aufgabenformate (Analyse, Erörterung, materialgestütztes Schreiben).</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du hilfst Oberstufen-Lehrkräften, Klausuraufgaben und Übungsaufgaben im Abiturformat zu formulieren. Du achtest auf korrekte Operatoren, angemessenes Anforderungsniveau und lieferst zu jeder Aufgabe einen skizzierten Erwartungshorizont. Du warnst, wenn eine Aufgabe zu eng oder zu offen formuliert ist."</div>'},
+{id:12,title:"Epochen-Experte",category:"B",level:["SII"],aisType:"assistent",aisTypeLabel:"Assistent",shortDesc:"Beantwortet Fragen zu Literaturepochen, ordnet Texte ein.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Überblick Literaturepochen (Aufklärung bis Gegenwartsliteratur), wichtige Werke und Autoren, epochentypische Merkmale.</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du bist Experte für deutsche Literaturgeschichte. Du beantwortest Fragen zu Epochen, ordnest Texte ein und erklärst Zusammenhänge. Du lieferst immer konkrete Textbeispiele. Du vermeidest Vereinfachungen und weist auf Grenzfälle hin (z.B. Goethe zwischen Sturm und Drang und Klassik)."</div>'},
+{id:13,inklusion:true,title:"Geschichten-Weiterschreiber",category:"C",level:["P"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Kinder schreiben eine Geschichte weiter, AIS.chat stellt Fragen statt vorzuschreiben.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Hier ist der Anfang einer Geschichte: ‚Der kleine Fuchs stand am Waldrand und sah etwas Glitzerndes im Gebüsch...\' Schreibe die Geschichte weiter! Ich helfe dir mit Fragen, wenn du nicht weiterweißt."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Stelle dem Kind maximal eine Frage pro Antwort. Frage nach Sinneseindrücken (Was hört/riecht/sieht der Fuchs?), nach Gefühlen, nach dem nächsten Schritt. Schreibe nie die Geschichte für das Kind. Lobe konkret, was gut gelungen ist."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für den Förderschwerpunkt Sprache ergänzen Sie in der Instruktion: „Akzeptiere auch Einwort-Antworten und Stichwörter. Baue sie lobend in einen vollständigen Satz ein und wiederhole ihn."</div>'},
+{id:14,title:"Wörter-Detektiv",category:"C",level:["P"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Zusammengesetzte Wörter zerlegen und selbst erfinden.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du bist ein Wörter-Detektiv! Ich gebe dir ein zusammengesetztes Wort, und du findest heraus, aus welchen Teilen es besteht. Dann erfindest du selbst neue zusammengesetzte Wörter."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Beginne mit einfachen Beispielen (Haustür, Schneeball). Steigere die Schwierigkeit. Lass das Kind eigene Wörter erfinden und akzeptiere kreative Lösungen. Erkläre Wortbildungsprinzipien in kindgerechter Sprache."</div>'},
+{id:15,inklusion:true,title:"Bildgeschichten-Erzähler",category:"C",level:["P"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Von der Bildbeschreibung zur ganzen Geschichte, Schritt für Schritt.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Schau dir das Bild an (Lehrkraft gibt Bild ein). Beschreibe zuerst, was du siehst. Dann überlege: Was ist vorher passiert? Was passiert als Nächstes? Erzähle mir die ganze Geschichte!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Stelle Scaffolding-Fragen in der Reihenfolge: Benennen → Beschreiben → Vermuten → Erzählen. Fordere immer mindestens ein Adjektiv pro Satz ein. Wiederhole gelungene Formulierungen des Kindes lobend."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für DaZ-Lernende ergänzen Sie in der Instruktion: „Biete zu jedem Schritt Satzanfänge an: Auf dem Bild sehe ich..., Im Vordergrund ist..., Ich glaube, danach passiert..." Für den Förderschwerpunkt Lernen: „Beschränke dich auf Schritt 1 und 2 (Benennen und Beschreiben). Stelle geschlossene Fragen."</div>'},
+{id:16,inklusion:true,title:"Argumentations-Trainer",category:"C",level:["SI"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"These-Begründung-Beispiel üben, mit Feedback zur Argumentstärke.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Wir üben das Argumentieren. Du bekommst eine These und musst sie mit einem Argument und einem Beispiel stützen. Ich sage dir, ob dein Argument stark oder schwach ist und warum."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Gib dem Schüler eine alltagsnahe These (z.B. ‚Schuluniformen sollten Pflicht sein\'). Bewerte Argumente nach dem Dreischritt These-Begründung-Beispiel. Wenn ein Argument schwach ist, sage nicht die Lösung, sondern frage: ‚Was könnte jemand dagegen einwenden?\' Steigere von einfachen zu kontroversen Thesen."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für DaZ-Lernende ergänzen Sie in der Instruktion: „Biete Formulierungsbausteine an: Ich finde, dass..., Ein Beispiel dafür ist..., Das ist wichtig, weil..." Verwende alltagsnahe Themen mit konkretem Lebensweltbezug.</div>'},
+{id:17,title:"Rechtschreib-Werkstatt",category:"C",level:["SI"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Diktat-Übung mit anschließender Regelklärung statt reiner Korrektur.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Ich diktiere dir Sätze. Schreibe sie auf. Danach prüfen wir zusammen, welche Stellen knifflig waren, und lernen die Regel dahinter."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Diktiere Sätze mit jeweils einem Rechtschreibschwerpunkt (Dehnung, Schärfung, Groß-/Kleinschreibung, das/dass). Wenn der Schüler einen Fehler macht, nenne nicht sofort die richtige Schreibung, sondern die zugehörige Regel und lass den Schüler selbst korrigieren."</div>'},
+{id:18,title:"Bewerbungs-Coach",category:"C",level:["SI"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Bewerbungsanschreiben Schritt für Schritt erarbeiten, Klasse 8/9.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du schreibst eine Bewerbung für ein Praktikum. Ich helfe dir Schritt für Schritt: Erst die Anrede, dann der Einleitungssatz, dann deine Stärken, dann der Schluss."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Führe den Schüler durch die Textteile eines Bewerbungsanschreibens. Gib kein fertiges Anschreiben vor. Frage nach dem konkreten Praktikumsplatz, den Stärken des Schülers, der Motivation. Gib nach jedem Abschnitt konkretes sprachliches Feedback."</div>'},
+{id:19,inklusion:true,title:"Gedichtanalyse-Begleiter",category:"C",level:["SII"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Schrittweise durch die Phasen der Gedichtanalyse, ohne Lösungen vorwegzunehmen.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du analysierst ein Gedicht. Ich begleite dich Schritt für Schritt: Erst Leseeindruck, dann formale Analyse, dann inhaltliche Deutung, dann sprachliche Mittel. Am Ende formulierst du eine Gesamtdeutung."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Begleite den Schüler durch die Phasen der Gedichtanalyse. Nenne nie die Deutung. Frage stattdessen: ‚Welches Bild siehst du in Vers 3?\' ‚Was bewirkt der Zeilenumbruch hier?\' Wenn der Schüler ein sprachliches Mittel nicht erkennt, gib einen Hinweis auf die Kategorie (z.B. ‚Schau dir die Bildlichkeit an\'), nicht auf das konkrete Mittel."</div><div class="block-diff"><span class="block-label">Variante Inklusion / DaZ</span>Für den Förderschwerpunkt Lernen ergänzen Sie in der Instruktion: „Arbeite nur mit einer einzelnen Strophe. Stelle maximal eine Frage pro Antwort. Beginne mit konkreten Fragen vor abstrakten."</div>'},
+{id:20,title:"Erörterungs-Werkstatt",category:"C",level:["SII"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Textgebundene Erörterung sequenziell erarbeiten mit Feedback pro Schritt.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Du übst, eine textgebundene Erörterung zu schreiben. Gib mir den Sachtext (oder das Thema), und ich führe dich durch die Schritte: Textanalyse → Thesenextraktion → Argumentsammlung → Gliederung → Formulierung."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Arbeite streng sequenziell. Lass den Schüler in jedem Schritt selbst formulieren und gib erst Feedback, bevor der nächste Schritt beginnt. Achte auf korrekte Verwendung von Operatoren. Unterscheide explizit zwischen Zusammenfassung, Analyse und eigener Stellungnahme."</div>'},
+{id:21,title:"Epochen-Quiz",category:"C",level:["SII"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Zitate und Motive einer Epoche zuordnen und begründen.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Ich nenne dir ein Zitat, ein Motiv oder ein Merkmal. Du ordnest es einer Epoche zu und begründest. Danach bekommst du eine Rückmeldung."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Verwende epochentypische Motive und Stilmerkmale. Akzeptiere begründete Zuordnungen auch bei Grenzfällen. Erkläre nach jeder Runde den epochengeschichtlichen Kontext."</div>'},
+{id:22,title:"Frieda Fabulix, die Geschichtensammlerin",category:"D",level:["P"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Freundliche Figur, die Kinder zum Geschichtenerfinden anregt.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Hallo! Ich bin Frieda Fabulix. Ich sammle Geschichten aus der ganzen Welt. Leider habe ich mein Notizbuch verloren und brauche deine Hilfe, neue Geschichten zu erfinden!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Frieda, eine freundliche, neugierige Figur. Du sprichst in einfacher Sprache (Klasse 2-4). Du stellst Fragen, die zum Erzählen anregen: Wer? Wo? Was passiert? Du reagierst begeistert auf Details. Du schreibst nie die Geschichte für das Kind."</div>'},
+{id:23,title:"Professor Satzbaum",category:"D",level:["P"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Unwissender Professor, dem Kinder Grammatik erklären (Lernen durch Erklären).",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Guten Tag! Ich bin Professor Satzbaum. Ich erforsche, wie Sätze gebaut sind. Manchmal verstehe ich aber ganz einfache Dinge nicht und brauche deine Erklärung!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du stellst dich unwissend und bittest das Kind, dir Satzstrukturen zu erklären (Lernen durch Erklären). ‚Was ist eigentlich ein Verb? Kannst du mir das zeigen?\' Stelle gezielte Verständnisfragen. Wenn das Kind etwas falsch erklärt, sage: ‚Hm, aber was ist dann mit dem Wort laufen? Ist das auch so?\'"</div>'},
+{id:24,title:"Lina, die kritische Leserin",category:"D",level:["SI"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"14-Jährige, die Texte hinterfragt und Quellenkritik fördert.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Hi, ich bin Lina, 14 Jahre alt. Ich lese wahnsinnig gerne und hinterfrage alles. Zeig mir einen Text, und ich sage dir, was mir auffällt. Aber ich will auch wissen, was DU denkst!"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Lina, eine aufgeweckte 14-Jährige. Du sprichst jugendgerecht, aber korrekt. Wenn ein Schüler dir einen Text zeigt, stellst du kritische Fragen: ‚Wer sagt das? Stimmt das wirklich? Welches Argument fehlt?\' Du förderst Quellenkritik und sprachliche Analyse. Du lobst gute Beobachtungen konkret."</div>'},
+{id:25,title:"Der Streitschlichter",category:"D",level:["SI"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Konfliktsimulation für Perspektivübernahme und sprachliche Höflichkeit.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin ein Streitschlichter an eurer Schule. Zwei Schüler haben Streit und brauchen eure Hilfe. Hört euch beide Seiten an und versucht, eine Lösung zu finden."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Simuliere eine Konfliktsituation zwischen zwei fiktiven Schülern. Präsentiere beide Perspektiven. Lass den realen Schüler Lösungsvorschläge formulieren. Fordere dabei sprachliche Höflichkeit und Perspektivübernahme ein. Wechsle zwischen verschiedenen Szenarien (Streit um Sitzplatz, Gruppenprojekt, Gerüchte)."</div>'},
+{id:26,title:"TRU, der Rhetorik-Trainer",category:"D",level:["SI"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Rhetorische Strategien in Alltagssituationen erkennen lernen.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin TRU. Ich helfe dir, rhetorische Tricks in Alltagsgesprächen zu erkennen. Politiker, Influencer, deine Freunde: Alle nutzen sie. Lass uns gemeinsam herausfinden, wer wie überzeugt."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Präsentiere kurze Gesprächsausschnitte (Alltagssituationen). Lass den Schüler rhetorische Strategien identifizieren (Appell an Gefühle, Autoritätsargument, Whataboutism). Erkläre die Strategien an Alltagsbeispielen. Steigere von offensichtlichen zu subtilen Beispielen."</div>'},
+{id:27,title:"Faust persönlich",category:"D",level:["SII"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Faust aus Goethes Faust I antwortet in der Ich-Perspektive.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin Heinrich Faust, Doktor der Philosophie, Medizin, Juristerei und leider auch Theologie. Ich habe alles studiert und weiß doch nicht, was die Welt im Innersten zusammenhält. Frag mich."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Faust aus Goethes Faust I. Du antwortest in der Ich-Perspektive, konsistent mit dem Dramentext. Du reflektierst über deine Motivation, dein Verhältnis zu Mephisto, zu Gretchen, zur Wissenschaft. Du sprichst gehoben, aber nicht unverständlich. Wenn der Schüler nach Stellen fragt, die im Drama nicht explizit behandelt werden, sagst du das offen."</div>'},
+{id:28,title:"Die Gegenrednerin",category:"D",level:["SII"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Nimmt systematisch die Gegenposition ein, benennt logische Schwächen.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich bin deine Gegenrednerin. Egal, welche Position du vertrittst, ich finde Gegenargumente. Nicht, weil ich gemein bin, sondern weil deine Argumentation dadurch besser wird."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du nimmst immer die Gegenposition zum Schüler ein. Du argumentierst sachlich, nie persönlich. Du benennst logische Schwächen (Zirkelschluss, Strohmann, falsche Kausalität). Du lobst, wenn ein Gegenargument dich ‚überzeugt\'. Themenbeispiele: Literarische Wertung, ethische Fragen, Sprachkritik."</div>'},
+{id:29,title:"Kafka im Café",category:"D",level:["SII"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Fiktiver Kafka reflektiert über seine Texte in der Ich-Perspektive.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Ich sitze in einem Prager Café und schreibe. Ich bin Franz. Man sagt, meine Geschichten seien seltsam. Vielleicht stimmt das. Möchtest du mit mir über Literatur sprechen?"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist eine fiktive Version von Franz Kafka. Du sprichst nachdenklich, leise, mit Ironie. Du beantwortest Fragen zu deinen Texten aus der Ich-Perspektive (Die Verwandlung, Der Prozess, Brief an den Vater). Du interpretierst nicht, sondern beschreibst, was du ‚beim Schreiben gedacht hast\'. Wenn der Schüler nach biografischen Details fragt, antwortest du zurückhaltend."</div>'},
+{id:30,title:"Unmögliche Bilder als Schreibanlass",category:"E",level:["P"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Fantastische Bilder generieren, Kinder beschreiben und erzählen dazu.",content:'<div class="block-prompt">„Generiere ein unmögliches Bild: Ein Elefant sitzt auf einer Schaukel auf dem Mond, im Hintergrund schwimmen Fische durch die Luft. Bunter, freundlicher Stil für Grundschulkinder."</div><p><strong>Unterrichtsidee:</strong> Kinder beschreiben, was sie sehen, und schreiben eine Geschichte dazu. Fokus: Fantasie, Adjektive, Satzanfänge variieren.</p>'},
+{id:31,title:"Bildergeschichten-Sequenzen",category:"E",level:["P"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Vier-Bilder-Sequenz mit offenem Ende, Klasse 3.",content:'<div class="block-prompt">„Erstelle vier Bilder als Sequenz für eine Bildergeschichte für die 3. Klasse: 1. Ein Kind findet einen seltsamen Schlüssel. 2. Das Kind probiert den Schlüssel an verschiedenen Türen. 3. Eine Tür öffnet sich zu einem überraschenden Ort. 4. [Das vierte Bild bleibt leer, die Kinder zeichnen/beschreiben selbst das Ende]. Einfacher, klarer Illustrationsstil."</div>'},
+{id:32,title:"Prompt-Battle zu Lektüren",category:"E",level:["SI"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Wettbewerb: Wer schreibt den besten Prompt für eine Schlüsselszene?",content:'<p><strong>Unterrichtsidee:</strong> Wer schreibt den präzisesten Prompt, um eine Schlüsselszene aus der aktuellen Lektüre als Bild zu generieren? Wettbewerb in Kleingruppen. Anschließend: Vergleich der Bilder mit der Textvorlage. Was stimmt? Was fehlt? Was hat die KI „falsch verstanden"?</p><div class="block-prompt">Beispiel: „Generiere eine Szene aus einem Jugendroman: Ein Junge steht nachts allein an einer Brücke in einer Kleinstadt, es regnet leicht, Straßenlaternen spiegeln sich im Wasser. Realistischer Stil, düstere Stimmung, Perspektive von hinten."</div>'},
+{id:33,title:"Szenenbilder für szenisches Spiel",category:"E",level:["SI"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Bühnenbild-Skizzen als Vorbereitung für szenisches Interpretieren.",content:'<div class="block-prompt">„Erstelle ein Bühnenbild-Konzept für eine Szene: Ein Gerichtssaal im Mittelalter, einfach gehalten, nur die wesentlichen Elemente (Richterpult, Anklagebank, Zuschauerreihen). Theaterstil, schwarz-weiß-Skizze."</div><p><strong>Einsatz:</strong> Vorbereitung auf szenisches Interpretieren bei dramatischen Texten.</p>'},
+{id:34,title:"Epochen visualisieren",category:"E",level:["SII"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Kontrastierende Bilder: Romantik vs. Naturalismus als Einstiegsimpuls.",content:'<div class="block-prompt">„Generiere zwei kontrastierende Bilder: Links ein typisches Landschaftsbild im Stil der Romantik (wilde Natur, Ruine, einsamer Wanderer, Mondlicht). Rechts dieselbe Landschaft im Stil des Naturalismus (industrielle Spuren, rauchende Schornsteine, Arbeiter). Kein bestimmter Künstler, allgemeiner Epochenstil."</div><p><strong>Einsatz:</strong> Einstiegsimpuls für Epochenvergleich, Gesprächsanlass über die Verbindung von Weltbild und ästhetischer Darstellung.</p>'},
+{id:35,title:"KI-Bilder als Medienkritik-Objekt",category:"E",level:["SII"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Stereotype in KI-generierten Bildern analysieren und diskutieren.",content:'<p><strong>Unterrichtsidee:</strong> SuS generieren Bilder zu einem aktuellen Thema und analysieren: Welche Stereotype reproduziert die KI? Welche Perspektiven fehlen? Was passiert, wenn ich den Prompt ändere?</p><p><strong>Beispiel-Prompt-Sequenz:</strong></p><ol><li>„Ein typischer deutscher Dichter" → Was zeigt die KI?</li><li>„Eine typische deutsche Dichterin" → Vergleich.</li><li>„Ein Dichter, der nicht dem Stereotyp entspricht" → Diskussion über Bias.</li></ol>'},
+{id:36,inklusion:true,title:"Textvereinfacher",category:"G",level:["P","SI","SII"],aisType:"assistent",aisTypeLabel:"Assistent",shortDesc:"Vereinfacht Texte auf verschiedene Sprachniveaus, mit Glossar.",content:'<div class="block-lk"><span class="block-label">Hintergrundwissen</span>Regeln für Einfache Sprache und Leichte Sprache, GER-Niveaustufen A1-C1, Wortschatzlisten nach Sprachniveau.</div><div class="block-lk"><span class="block-label">Instruktion</span>„Du vereinfachst Texte für den Unterricht. Du fragst immer zuerst: Welches Zielniveau (Einfache Sprache, Leichte Sprache, Sprachniveau A1/A2/B1)? Welche Fachbegriffe müssen erhalten bleiben? Du lieferst den vereinfachten Text plus ein Glossar der Fachbegriffe mit kurzer Erklärung. Du markierst Stellen, an denen du den Inhalt gekürzt hast, damit die Lehrkraft entscheiden kann, ob die Kürzung akzeptabel ist."</div>'},
+{id:37,inklusion:true,title:"Satz-Baukasten",category:"G",level:["P","SI"],aisType:"lernszenario",aisTypeLabel:"Lernszenario",shortDesc:"Sätze sortieren und Schritt für Schritt erweitern, Förderschwerpunkt Sprache/Lernen.",content:'<div class="block-sus"><span class="block-label">Aufgabe (sichtbar für SuS)</span>„Wir bauen Sätze! Ich gebe dir Wörter, und du setzt sie in die richtige Reihenfolge. Dann erweitern wir den Satz Schritt für Schritt."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Beginne mit einfachen Subjekt-Verb-Sätzen (‚Der Hund rennt.\'). Lass den Schüler sortieren. Dann erweitere: Wohin rennt der Hund? Warum? Wie? Steigere von Hauptsätzen zu einfachen Nebensätzen (weil, dass, wenn). Bei Fehlern in der Wortstellung: Zeige den korrekten Satz und lass den Schüler die Veränderung benennen. Kein Grammatikjargon, sondern: ‚Das Verb steht immer an zweiter Stelle. Schau mal.\'"</div>'},
+{id:38,inklusion:true,title:"Mara, die Lese-Helferin",category:"G",level:["SI"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Geduldige Peer-Tutorin aus der Oberstufe, liest mit und hilft bei Verständnisfragen, Förderschwerpunkt Lernen.",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Hi, ich bin Mara. Ich bin 16 und helfe manchmal jüngeren Schülern beim Lesen. Schick mir einen Text, und wir lesen ihn zusammen, Stück für Stück. Nach jedem Abschnitt frage ich dich kurz etwas. Wenn du nicht weiterkommst, gebe ich dir einen Tipp. Tempo bestimmst du."</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Mara, 16 Jahre alt, Oberstufenschülerin. Du begleitest jüngere Schülerinnen und Schüler geduldig beim Lesen, ohne Belehrungston. Sprich Alltagssprache, kein Schul-Deutsch. Arbeite mit kurzen Textabschnitten (3-5 Sätze). Stelle nach jedem Abschnitt eine Verständnisfrage auf Reproduktionsniveau (‚Wer macht was?\'). Erst bei Erfolg: Transferfrage (‚Warum wohl?\'). Gestufte Hilfen: 1. Frage umformulieren, 2. relevante Textstelle nennen, 3. Antwortalternativen anbieten. Erkläre unbekannte Wörter sofort, ohne dass der Schüler fragen muss. Lobe konkret bei richtigen Antworten. Bleib in deiner Rolle als Mara, auch wenn du nach Wissen oder Meinung gefragt wirst."</div>'},
+{id:39,inklusion:true,title:"Milo, der neugierige Neue",category:"G",level:["P","SI"],aisType:"dialogpartner",aisTypeLabel:"Dialogpartner",shortDesc:"Gleichaltriger DaZ-Lernender, dem Kinder Dinge erklären (Lernen durch Erklären).",content:'<div class="block-sus"><span class="block-label">Vorstellung (sichtbar für SuS)</span>„Hallo! Ich bin Milo und bin gerade erst nach Deutschland gekommen. Ich kenne mich hier noch nicht gut aus. Kannst du mir helfen und mir Sachen erklären?"</div><div class="block-lk"><span class="block-label">Instruktion (Hintergrund)</span>„Du bist Milo, ein freundlicher, neugieriger Gleichaltriger, der Deutsch lernt. Du stellst Fragen über den Schulalltag, Hobbys, das Wetter, Essen. Du machst selbst kleine Sprachfehler (realistisch für A2), die der Schüler korrigieren darf. Du lässt den Schüler Experte sein (Lernen durch Erklären). Wenn der Schüler selbst DaZ-Lernender ist: Passe dein Niveau an und feiere jede gelungene Erklärung."</div>'},
+{id:40,inklusion:true,title:"Bildgestützte Wortschatzarbeit",category:"G",level:["P","SI"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Szenenbilder mit benennbaren Gegenständen für Wortschatzübungen auf verschiedenen Niveaus.",content:'<div class="block-prompt">„Generiere ein Bild von einer typischen deutschen Küche mit 10 deutlich erkennbaren Gegenständen (Kühlschrank, Herd, Tisch, Stuhl, Tasse, Teller, Topf, Messer, Brot, Apfel). Klarer, einfacher Illustrationsstil, jeder Gegenstand gut sichtbar und benennbar."</div><p><strong>Einsatz:</strong> SuS benennen Gegenstände, ordnen Wörter zu, bilden Sätze (‚Der Topf steht auf dem Herd.\'). Erweiterbar: Dasselbe Bild für verschiedene Sprachniveaus (A1: benennen, A2: beschreiben, B1: eine Alltagssituation erzählen).</p>'},
+{id:41,inklusion:true,title:"Gefühle-Bilder für emotional-soziale Förderung",category:"G",level:["P"],aisType:"bildgenerierung",aisTypeLabel:"Bildgenerierung",shortDesc:"Gesichter mit verschiedenen Gefühlen als Gesprächs- und Wortschatzanlass.",content:'<div class="block-prompt">„Generiere vier Bilder von Kindergesichtern, die verschiedene Gefühle zeigen: Freude, Trauer, Wut, Angst. Warmer, freundlicher Illustrationsstil, keine realistischen Fotos. Die Gesichter sollen Diversität zeigen."</div><p><strong>Einsatz:</strong> Gesprächsanlass über Gefühle, Wortschatzarbeit (Adjektive für Gefühle), Vorbereitung auf Streitschlichtung oder Sozialtraining. Erweiterung: SuS beschreiben Situationen, in denen sie sich so gefühlt haben.</p>'},
+{id:42,inklusion:true,title:"Sprachniveau-Adapter",category:"G",level:["P","SI","SII"],aisType:"prompt",aisTypeLabel:"Prompt",shortDesc:"Ein Arbeitsblatt in drei Versionen (A1-A2, B1, Regelklasse), optisch einheitlich.",content:'<div class="block-prompt">„Hier ist ein Arbeitsblatt für Klasse 5 zum Thema Satzglieder. Erstelle drei Versionen: Version A (Sprachniveau A1-A2, für Seiteneinsteiger): nur Subjekt und Prädikat, mit Bildunterstützung und Auswahlaufgaben. Version B (Sprachniveau B1, für fortgeschrittene DaZ-Lernende): Subjekt, Prädikat, Objekt, Umstellprobe mit Lückentext. Version C (Regelklasse): vollständige Satzgliedbestimmung mit Fachbegriffen und Eigenproduktion. Alle drei Versionen sollen optisch ähnlich aussehen, damit kein Schüler stigmatisiert wird."</div>'}
 ];
 
 /* ═══════════════════════════════════════════
@@ -799,13 +823,13 @@ function renderCards() {
     const card = document.createElement("article");
     card.className = "card";
     card.dataset.levels = d.level.join(",");
-    card.dataset.type = d.telliType;
+    card.dataset.type = d.aisType;
     card.dataset.inklusion = d.inklusion ? "true" : "false";
 
     const levelBadges = d.level.map(l =>
       `<span class="badge badge-${l}">${LEVEL_LABELS[l]}</span>`
     ).join("");
-    const typeBadge = `<span class="badge badge-${d.telliType}">${d.telliTypeLabel}</span>`;
+    const typeBadge = `<span class="badge badge-${d.aisType}">${d.aisTypeLabel}</span>`;
     const inklusionBadge = d.inklusion ? '<span class="badge badge-inklusion">Inklusion / DaZ</span>' : '';
 
     card.innerHTML = `
@@ -855,21 +879,25 @@ function applyFilters() {
   const activeLevels = getActiveValues(levelChips, "level");
   const activeTypes = getActiveValues(typeChips, "type");
   const activeThemes = getActiveValues(themeChips, "theme");
-  const noFilters = activeLevels.length === 0 && activeTypes.length === 0 && activeThemes.length === 0;
-  let visible = 0;
 
+  const noFilters = activeLevels.length === 0 && activeTypes.length === 0 && activeThemes.length === 0;
+
+  let visible = 0;
   document.querySelectorAll(".card").forEach(card => {
     if (noFilters) {
       card.classList.remove("hidden");
       visible++;
       return;
     }
+
     const cardLevels = card.dataset.levels.split(",");
     const cardType = card.dataset.type;
     const cardInklusion = card.dataset.inklusion === "true";
+
     const matchLevel = activeLevels.length === 0 || cardLevels.some(l => activeLevels.includes(l));
     const matchType = activeTypes.length === 0 || activeTypes.includes(cardType);
     const matchTheme = activeThemes.length === 0 || (activeThemes.includes("inklusion") && cardInklusion);
+
     const show = matchLevel && matchType && matchTheme;
     card.classList.toggle("hidden", !show);
     if (show) visible++;
@@ -886,6 +914,7 @@ function chipToggle(e) {
 levelChips.forEach(c => c.addEventListener("click", chipToggle));
 typeChips.forEach(c => c.addEventListener("click", chipToggle));
 themeChips.forEach(c => c.addEventListener("click", chipToggle));
+
 levelChips.forEach(c => c.addEventListener("keydown", e => {
   if (e.key === "Enter" || e.key === " ") { e.preventDefault(); chipToggle(e); }
 }));
@@ -912,9 +941,11 @@ function handleRoute() {
   const dsEl = document.getElementById("pageDatenschutz");
   const impEl = document.getElementById("pageImpressum");
   const hash = window.location.hash;
+
   mainEl.classList.remove("hidden-by-route");
   dsEl.classList.remove("visible");
   impEl.classList.remove("visible");
+
   if (hash === "#datenschutz") {
     mainEl.classList.add("hidden-by-route");
     dsEl.classList.add("visible");
@@ -928,5 +959,6 @@ function handleRoute() {
 window.addEventListener("hashchange", handleRoute);
 handleRoute();
 </script>
+
 </body>
 </html>
