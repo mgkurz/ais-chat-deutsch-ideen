@@ -13,6 +13,8 @@ Letzter Commit vor dieser Session: `3a772fa` „Update copyright year in LICENSE
 - Projektdoku angelegt: `CLAUDE.md` (aus der Vorlage), `CLAUDE.local.md` (gitignored), `ORTE.md`, diese Datei. Das Repo hatte bis dahin keine `.gitignore`, jetzt schon.
 - `a4852cd` **Beispiel 16 „Argumentations-Trainer" fachlich überarbeitet.** Ersetzt durch die geprüfte Fassung aus `~/Projekte/ausbildungskraefte-deutsch/erprobung/hintergrund/beispiel-16-ersatzzeile.txt`. Behoben sind die sechs Befunde aus `beispiel-16-pruefung.md`: uneinheitliche Begriffe, „Beispiel" statt des Oberbegriffs Stützung, fehlende Bewertungskriterien, Zirkelschluss nicht genannt, kein Abbruch, generisches Maskulinum. Tags und Inklusions-Variante sind unverändert, eine Klassenstufe steht nicht im Text.
 - `a4f34d6` **PLZ korrigiert**, 35389 auf 35398, an beiden Stellen (Impressum und Datenschutzerklärung).
+- `7a052cd` **ORTE.md korrigiert.** Die Datei behauptete fälschlich, es gebe keine Git-Tags zum Projekt.
+- **Veröffentlicht.** Push nach `origin/main`, Tag `v1.1.1` gesetzt, GitHub-Release [v1.1.1](https://github.com/mgkurz/ais-chat-deutsch-ideen/releases/tag/v1.1.1) angelegt, Pages-Build durchgelaufen. Live-Seite und Kurzlink `t1p.de/ais-chat-deutsch` gegengeprüft: byte-identisch mit HEAD, PLZ 35398 an beiden Stellen, Beispiel 16 in der neuen Fassung.
 
 Geprüft nach beiden Änderungen: `DATA`-Array syntaktisch in Ordnung, 42 Einträge, IDs 1 bis 42 lückenlos, 12 Inklusions-Einträge. Im Browser: 42 Karten, Zähler „42 von 42", Karte 16 klappt auf und zeigt alle drei Blöcke, Filter Sek I plus Lernszenario liefert 4 Treffer inklusive Beispiel 16, Kopier-Button liefert den erwarteten Text, Impressum und Datenschutzerklärung zeigen 35398.
 
@@ -26,7 +28,6 @@ Geprüft nach beiden Änderungen: `DATA`-Array syntaktisch in Ordnung, 42 Eintr�
 
 ## Offene Punkte
 
-- **Push steht aus.** Beide Commits liegen nur lokal. Bis zum Push zeigt die Live-Seite noch die alte Fassung von Beispiel 16 und die falsche PLZ. Wartet auf Freigabe.
-- **Nach dem Push gegenprüfen**: Live-Seite und Kurzlink `t1p.de/ais-chat-deutsch` aufrufen, GitHub Pages braucht einen Moment bis zum Neubau.
-- **Release-Kopie veraltet.** `~/Documents/Arbeit/MediaLab/AIS.chat/Github/ais-chat-deutsch-ideen/v1.1.0/` war bis zu dieser Session byte-identisch mit HEAD, ist es jetzt nicht mehr. Zu entscheiden: neuen Ordner anlegen oder die Ablage-Kopien aufgeben und in `ORTE.md` allein auf GitHub verweisen. Siehe dort auch den Hinweis, dass keine Versionsnummer in der `index.html` steht.
+- **Release-Kopie in der Ablage fehlt.** `~/Documents/Arbeit/MediaLab/AIS.chat/Github/ais-chat-deutsch-ideen/` hat Ordner für `v1.0.0` und `v1.1.0`, aber keinen für `v1.1.1`. Zu entscheiden: neuen Ordner anlegen oder die Ablage-Kopien aufgeben und in `ORTE.md` allein auf GitHub und die Git-Tags verweisen. Der zweite Weg wäre konsequenter, seit die Versionen sauber als Tags im Repo stehen.
+- **Diese Datei liegt hinter dem Tag.** Der Eintrag zur Veröffentlichung ist erst nach `v1.1.1` committet, das Release enthält ihn nicht. Bei künftigen Releases STATUS.md vor dem Tag nachziehen.
 - **`README.md` nicht angefasst.** Sie beschreibt die Feldstruktur, erwähnt aber nicht, dass das Feld `category` von Rendering und Filter nicht ausgewertet wird. Kleinigkeit, kein Handlungsdruck.
