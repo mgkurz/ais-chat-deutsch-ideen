@@ -1,0 +1,11 @@
+# Lokales: Kontaktdaten, Konfig
+CLAUDE.local.md
+*.local.*
+
+# Transitzone: Rohes, Screenshots, Exporte. Nie committen.
+workbench/
+.playwright-mcp/
+
+# System und Secrets
+.DS_Store
+.env
