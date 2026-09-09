@@ -17,9 +17,17 @@ Dieses Repo ist Produktionsort und Quelle der Wahrheit für die `index.html` und
 | v1.1.0, Stand 21.05.2026 | `~/Documents/Arbeit/MediaLab/AIS.chat/Github/ais-chat-deutsch-ideen/v1.1.0/` |
 | v1.0.0, ältere Ablage | `~/Documents/Arbeit/MediaLab/AIS.chat/Github/ais-chat-deutsch-ideen/v1.0.0/` |
 
-**Wichtig, Versionsnummern:** In der `index.html` steht **keine** Versionsnummer. Die Bezeichnung „v1.1.0" existiert ausschließlich als Ordnername in der Ablage oben und in fremder Doku (`ORTE.md` des Projekts `ausbildungskraefte-deutsch`). Sie ist nicht aus dem Repo ableitbar, es gibt auch keinen Git-Tag dazu. Wer eine Version nennen will, muss sie an dieser Stelle nachschlagen oder besser den Commit-Hash verwenden.
+**Wichtig, Versionsnummern:** In der `index.html` steht **keine** Versionsnummer. Wer die Version einer laufenden Seite bestimmen will, kann das nicht aus der Datei selbst tun, sondern nur über Git-Tag oder Commit-Hash.
 
-Die `index.html` in `v1.1.0/` war beim Anlegen dieser Datei byte-identisch mit HEAD (`3a772fa`). Die `LICENSE` dort ist älter: der Commit `3a772fa` vom 21.05.2026 hat die Copyright-Zeile nachgezogen, die Ablage-Kopie hat noch den Wortlaut davor.
+Die Versionen leben als Git-Tags, lokal und auf dem Remote:
+
+| Tag | Commit | Was |
+| --- | --- | --- |
+| `v1.0.0` | `cda97bd` (18.05.2026) | Rebrand zu AIS.chat |
+| `v1.1.0` | `c6054e8` (21.05.2026) | Kopier-Button je Beispiel, Filter neu gegliedert |
+| `v1.1.1` | 09.09.2026 | Beispiel 16 fachlich überarbeitet, PLZ auf 35398 korrigiert, Projektdoku angelegt |
+
+Zu beachten: `v1.1.0` zeigt auf `c6054e8`, **nicht** auf den danach folgenden Commit `3a772fa` („Update copyright year in LICENSE file", 21.05.2026). Deshalb ist die `LICENSE` in der Ablage-Kopie `v1.1.0/` älter als die im Repo. Die `index.html` dort war bis zum 09.09.2026 byte-identisch mit dem damaligen HEAD, ab `v1.1.1` ist sie es nicht mehr.
 
 ## Verwandte Projekte
 
