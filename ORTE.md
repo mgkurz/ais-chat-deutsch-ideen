@@ -33,7 +33,7 @@ Zu beachten: `v1.1.0` zeigt auf `c6054e8`, **nicht** auf den danach folgenden Co
 
 | Projekt | Beziehung | Ort |
 | --- | --- | --- |
-| `ais-chat-config` | Schwesterprojekt, die drei Config-Prompts (Lernszenario, Dialogpartner, Assistent). **Der Kopier-Button dieser Seite arbeitet darauf hin**: Er liefert ein Beispiel als Klartext, der dann in einen dieser Prompts eingesetzt wird. Ist im Footer der README verlinkt. | `~/Projekte/ais-chat-config/`, GitHub `mgkurz/ais-chat-config`, Kurzlink `t1p.de/ais-chat-config` |
+| `ais-chat-config` | Schwesterprojekt, die drei Config-Prompts (Lernszenario, Dialogpartner, Assistent). **Der Kopier-Button dieser Seite arbeitet darauf hin**: Er liefert ein Beispiel als Klartext, der dann in einen dieser Prompts eingesetzt wird. Ist im Footer der README verlinkt. | `~/Projekte/ais-chat-config/`, GitHub `mgkurz/ais-chat-config`, Pages `https://mgkurz.github.io/ais-chat-config/` (der Kurzlink `t1p.de/ais-chat-config` ist seit 14.09.2026 deaktiviert) |
 | `ausbildungskraefte-deutsch` | Nutzendes Projekt, Forum der Ausbildungskräfte Deutsch am 10.09.2026. Diese Seite ist dort Ausgangspunkt der Live-Demo und des Arbeitsauftrags. | `~/Projekte/ausbildungskraefte-deutsch/` |
 
 Im Projekt `ausbildungskraefte-deutsch` liegen zwei Dinge, die dieses Repo betreffen:
